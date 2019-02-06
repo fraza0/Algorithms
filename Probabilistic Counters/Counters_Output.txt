@@ -1,0 +1,6471 @@
+Test Chain: oreuefniiuaapfizslrn
+Number of unique characters in test chain: 12
+
+_________________________________________REPETITIONS 10__________________________________________
+
+________________________________________SEQUENCE SIZE 100________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      15       |  10   |  17   |  24   |13.33 %|   8   |  20   |  37   |33.33 %|
+|       f       |      13       |   6   |  14   |  20   | 7.69 %|   8   |  15   |  18   |15.38 %|
+|       n       |      11       |   4   |  11   |  20   | 0.0  %|   8   |  14   |  26   |27.27 %|
+|       u       |      10       |   6   |  11   |  14   | 10.0 %|   8   |  11   |  12   | 10.0 %|
+|       r       |      10       |   4   |  10   |  14   | 0.0  %|   5   |  10   |  18   | 0.0  %|
+|       a       |       9       |   6   |   9   |  14   | 0.0  %|   5   |  10   |  26   |11.11 %|
+|       p       |       7       |   4   |   6   |   8   |14.29 %|   3   |   8   |  18   |14.29 %|
+|       l       |       7       |   4   |   8   |  10   |14.29 %|   3   |   7   |  12   | 0.0  %|
+|       z       |       6       |   2   |   6   |  10   | 0.0  %|   3   |   6   |  12   | 0.0  %|
+|       e       |       5       |   2   |   5   |   8   | 0.0  %|   3   |   5   |   8   | 0.0  %|
+|       o       |       4       |   2   |   4   |   6   | 0.0  %|   3   |   5   |   8   | 25.0 %|
+|       s       |       3       |   2   |   3   |   6   | 0.0  %|   2   |   3   |   5   | 0.0  %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          f           |          f           |         True         |          f           |         True         |
+|          n           |          n           |         True         |          n           |         True         |
+|          u           |          u           |         True         |          u           |         True         |
+|          r           |          r           |         True         |          a           |        False         |
+|          a           |          a           |         True         |          r           |        False         |
+|          p           |          l           |        False         |          p           |         True         |
+|          l           |          p           |        False         |          l           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          e           |          e           |         True         |          e           |         True         |
+|          o           |          o           |         True         |          o           |         True         |
+|          s           |          s           |         True         |          s           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 15
+Mean Absolute Error: 4.4 
+Mean Relative Error: 29.33 %
+
+Max Counter Value: 24
+Min Counter Value: 10
+Mean Counter Value: 17
+
+Mean Absolute Deviation: 4.4 
+Standard Deviation: 5.17 
+Maximum Deviation: 7 
+Variance: 26.71
+
+
+===Character f===
+
+Exact count: 13
+Mean Absolute Error: 3.8 
+Mean Relative Error: 29.23 %
+
+Max Counter Value: 20
+Min Counter Value: 6
+Mean Counter Value: 14
+
+Mean Absolute Deviation: 3.6 
+Standard Deviation: 4.71 
+Maximum Deviation: 8 
+Variance: 22.22
+
+
+===Character n===
+
+Exact count: 11
+Mean Absolute Error: 3.2 
+Mean Relative Error: 29.09 %
+
+Max Counter Value: 20
+Min Counter Value: 4
+Mean Counter Value: 11
+
+Mean Absolute Deviation: 3.2 
+Standard Deviation: 4.43 
+Maximum Deviation: 9 
+Variance: 19.6
+
+
+===Character u===
+
+Exact count: 10
+Mean Absolute Error: 2.2 
+Mean Relative Error: 22.0 %
+
+Max Counter Value: 14
+Min Counter Value: 6
+Mean Counter Value: 11
+
+Mean Absolute Deviation: 2.0 
+Standard Deviation: 2.5 
+Maximum Deviation: 5 
+Variance: 6.27
+
+
+===Character r===
+
+Exact count: 10
+Mean Absolute Error: 3.6 
+Mean Relative Error: 36.0 %
+
+Max Counter Value: 14
+Min Counter Value: 4
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 3.6 
+Standard Deviation: 4.4 
+Maximum Deviation: 6 
+Variance: 19.38
+
+
+===Character a===
+
+Exact count: 9
+Mean Absolute Error: 2.4 
+Mean Relative Error: 26.67 %
+
+Max Counter Value: 14
+Min Counter Value: 6
+Mean Counter Value: 9
+
+Mean Absolute Deviation: 2.4 
+Standard Deviation: 2.84 
+Maximum Deviation: 5 
+Variance: 8.04
+
+
+===Character p===
+
+Exact count: 7
+Mean Absolute Error: 1.6 
+Mean Relative Error: 22.86 %
+
+Max Counter Value: 8
+Min Counter Value: 4
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 1.4 
+Standard Deviation: 1.75 
+Maximum Deviation: 2 
+Variance: 3.07
+
+
+===Character l===
+
+Exact count: 7
+Mean Absolute Error: 1.8 
+Mean Relative Error: 25.71 %
+
+Max Counter Value: 10
+Min Counter Value: 4
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 1.6 
+Standard Deviation: 2.07 
+Maximum Deviation: 4 
+Variance: 4.27
+
+
+===Character z===
+
+Exact count: 6
+Mean Absolute Error: 2.6 
+Mean Relative Error: 43.33 %
+
+Max Counter Value: 10
+Min Counter Value: 2
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 2.6 
+Standard Deviation: 3.05 
+Maximum Deviation: 4 
+Variance: 9.29
+
+
+===Character e===
+
+Exact count: 5
+Mean Absolute Error: 1.4 
+Mean Relative Error: 28.0 %
+
+Max Counter Value: 8
+Min Counter Value: 2
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 1.4 
+Standard Deviation: 1.7 
+Maximum Deviation: 3 
+Variance: 2.89
+
+
+===Character o===
+
+Exact count: 4
+Mean Absolute Error: 1.6 
+Mean Relative Error: 40.0 %
+
+Max Counter Value: 6
+Min Counter Value: 2
+Mean Counter Value: 4
+
+Mean Absolute Deviation: 1.6 
+Standard Deviation: 1.84 
+Maximum Deviation: 2 
+Variance: 3.38
+
+
+===Character s===
+
+Exact count: 3
+Mean Absolute Error: 1.2 
+Mean Relative Error: 40.0 %
+
+Max Counter Value: 6
+Min Counter Value: 2
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 1.2 
+Standard Deviation: 1.4 
+Maximum Deviation: 3 
+Variance: 1.96
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 15
+Mean Absolute Error: 9.2 
+Mean Relative Error: 61.33 %
+
+Max Counter Value: 37
+Min Counter Value: 8
+Mean Counter Value: 20
+
+Mean Absolute Deviation: 9.6 
+Standard Deviation: 11.22 
+Maximum Deviation: 17 
+Variance: 125.82
+
+
+===Character f===
+
+Exact count: 13
+Mean Absolute Error: 4.6 
+Mean Relative Error: 35.38 %
+
+Max Counter Value: 18
+Min Counter Value: 8
+Mean Counter Value: 15
+
+Mean Absolute Deviation: 3.8 
+Standard Deviation: 4.33 
+Maximum Deviation: 7 
+Variance: 18.71
+
+
+===Character n===
+
+Exact count: 11
+Mean Absolute Error: 4 
+Mean Relative Error: 36.36 %
+
+Max Counter Value: 26
+Min Counter Value: 8
+Mean Counter Value: 14
+
+Mean Absolute Deviation: 4.2 
+Standard Deviation: 5.45 
+Maximum Deviation: 12 
+Variance: 29.73
+
+
+===Character u===
+
+Exact count: 10
+Mean Absolute Error: 2 
+Mean Relative Error: 20.0 %
+
+Max Counter Value: 12
+Min Counter Value: 8
+Mean Counter Value: 11
+
+Mean Absolute Deviation: 1.6 
+Standard Deviation: 1.93 
+Maximum Deviation: 3 
+Variance: 3.73
+
+
+===Character r===
+
+Exact count: 10
+Mean Absolute Error: 2.9 
+Mean Relative Error: 29.0 %
+
+Max Counter Value: 18
+Min Counter Value: 5
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 2.9 
+Standard Deviation: 3.65 
+Maximum Deviation: 8 
+Variance: 13.34
+
+
+===Character a===
+
+Exact count: 9
+Mean Absolute Error: 5 
+Mean Relative Error: 55.56 %
+
+Max Counter Value: 26
+Min Counter Value: 5
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 5.2 
+Standard Deviation: 6.95 
+Maximum Deviation: 16 
+Variance: 48.27
+
+
+===Character p===
+
+Exact count: 7
+Mean Absolute Error: 3.1 
+Mean Relative Error: 44.29 %
+
+Max Counter Value: 18
+Min Counter Value: 3
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 3.1 
+Standard Deviation: 4.42 
+Maximum Deviation: 10 
+Variance: 19.57
+
+
+===Character l===
+
+Exact count: 7
+Mean Absolute Error: 2.7 
+Mean Relative Error: 38.57 %
+
+Max Counter Value: 12
+Min Counter Value: 3
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.7 
+Standard Deviation: 3.28 
+Maximum Deviation: 5 
+Variance: 10.77
+
+
+===Character z===
+
+Exact count: 6
+Mean Absolute Error: 2.2 
+Mean Relative Error: 36.67 %
+
+Max Counter Value: 12
+Min Counter Value: 3
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 2.2 
+Standard Deviation: 2.78 
+Maximum Deviation: 6 
+Variance: 7.73
+
+
+===Character e===
+
+Exact count: 5
+Mean Absolute Error: 0.9 
+Mean Relative Error: 18.0 %
+
+Max Counter Value: 8
+Min Counter Value: 3
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 0.9 
+Standard Deviation: 1.49 
+Maximum Deviation: 3 
+Variance: 2.23
+
+
+===Character o===
+
+Exact count: 4
+Mean Absolute Error: 1.6 
+Mean Relative Error: 40.0 %
+
+Max Counter Value: 8
+Min Counter Value: 3
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 0.8 
+Standard Deviation: 1.51 
+Maximum Deviation: 3 
+Variance: 2.27
+
+
+===Character s===
+
+Exact count: 3
+Mean Absolute Error: 0.9 
+Mean Relative Error: 30.0 %
+
+Max Counter Value: 5
+Min Counter Value: 2
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 0.9 
+Standard Deviation: 1.25 
+Maximum Deviation: 2 
+Variance: 1.57
+
+
+EXECUTION TIME: 0 secs.
+
+
+_______________________________________SEQUENCE SIZE 1000________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      143      |  134  |  149  |  172  | 4.2  %|  108  |  159  |  217  |11.19 %|
+|       u       |      119      |  112  |  122  |  132  | 2.52 %|  76   |  140  |  308  |17.65 %|
+|       f       |      109      |  100  |  109  |  122  | 0.0  %|  53   |  147  |  217  |34.86 %|
+|       n       |      99       |  96   |  104  |  116  | 5.05 %|  53   |  99   |  217  | 0.0  %|
+|       r       |      98       |  80   |  98   |  110  | 0.0  %|  53   |  91   |  108  | 7.14 %|
+|       a       |      95       |  82   |  92   |  104  | 3.16 %|  53   |  90   |  153  | 5.26 %|
+|       e       |      92       |  74   |  92   |  102  | 0.0  %|  53   |  114  |  217  |23.91 %|
+|       l       |      54       |  32   |  51   |  72   | 5.56 %|  26   |  52   |  76   | 3.7  %|
+|       o       |      52       |  34   |  51   |  64   | 1.92 %|  18   |  55   |  108  | 5.77 %|
+|       z       |      48       |  40   |  49   |  60   | 2.08 %|  18   |  40   |  76   |16.67 %|
+|       p       |      48       |  30   |  47   |  56   | 2.08 %|  12   |  44   |  76   | 8.33 %|
+|       s       |      43       |  34   |  43   |  54   | 0.0  %|  12   |  39   |  76   | 9.3  %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          u           |          u           |         True         |          f           |        False         |
+|          f           |          f           |         True         |          u           |        False         |
+|          n           |          n           |         True         |          e           |        False         |
+|          r           |          r           |         True         |          n           |        False         |
+|          a           |          e           |        False         |          r           |        False         |
+|          e           |          a           |        False         |          a           |        False         |
+|          l           |          l           |         True         |          o           |        False         |
+|          o           |          o           |         True         |          l           |        False         |
+|          z           |          z           |         True         |          p           |        False         |
+|          p           |          p           |         True         |          z           |        False         |
+|          s           |          s           |         True         |          s           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 143
+Mean Absolute Error: 9.2 
+Mean Relative Error: 6.43 %
+
+Max Counter Value: 172
+Min Counter Value: 134
+Mean Counter Value: 149
+
+Mean Absolute Deviation: 9.4 
+Standard Deviation: 11.63 
+Maximum Deviation: 23 
+Variance: 135.29
+
+
+===Character u===
+
+Exact count: 119
+Mean Absolute Error: 6.4 
+Mean Relative Error: 5.38 %
+
+Max Counter Value: 132
+Min Counter Value: 112
+Mean Counter Value: 122
+
+Mean Absolute Deviation: 6.8 
+Standard Deviation: 7.82 
+Maximum Deviation: 10 
+Variance: 61.16
+
+
+===Character f===
+
+Exact count: 109
+Mean Absolute Error: 5.6 
+Mean Relative Error: 5.14 %
+
+Max Counter Value: 122
+Min Counter Value: 100
+Mean Counter Value: 109
+
+Mean Absolute Deviation: 5.6 
+Standard Deviation: 7.31 
+Maximum Deviation: 13 
+Variance: 53.38
+
+
+===Character n===
+
+Exact count: 99
+Mean Absolute Error: 5.8 
+Mean Relative Error: 5.86 %
+
+Max Counter Value: 116
+Min Counter Value: 96
+Mean Counter Value: 104
+
+Mean Absolute Deviation: 4.4 
+Standard Deviation: 5.95 
+Maximum Deviation: 12 
+Variance: 35.38
+
+
+===Character r===
+
+Exact count: 98
+Mean Absolute Error: 8.8 
+Mean Relative Error: 8.98 %
+
+Max Counter Value: 110
+Min Counter Value: 80
+Mean Counter Value: 98
+
+Mean Absolute Deviation: 8.8 
+Standard Deviation: 10.62 
+Maximum Deviation: 18 
+Variance: 112.71
+
+
+===Character a===
+
+Exact count: 95
+Mean Absolute Error: 7.8 
+Mean Relative Error: 8.21 %
+
+Max Counter Value: 104
+Min Counter Value: 82
+Mean Counter Value: 92
+
+Mean Absolute Deviation: 7.2 
+Standard Deviation: 8.32 
+Maximum Deviation: 12 
+Variance: 69.16
+
+
+===Character e===
+
+Exact count: 92
+Mean Absolute Error: 8.4 
+Mean Relative Error: 9.13 %
+
+Max Counter Value: 102
+Min Counter Value: 74
+Mean Counter Value: 92
+
+Mean Absolute Deviation: 8.4 
+Standard Deviation: 10.28 
+Maximum Deviation: 18 
+Variance: 105.6
+
+
+===Character l===
+
+Exact count: 54
+Mean Absolute Error: 9.8 
+Mean Relative Error: 18.15 %
+
+Max Counter Value: 72
+Min Counter Value: 32
+Mean Counter Value: 51
+
+Mean Absolute Deviation: 9.8 
+Standard Deviation: 11.9 
+Maximum Deviation: 21 
+Variance: 141.56
+
+
+===Character o===
+
+Exact count: 52
+Mean Absolute Error: 5 
+Mean Relative Error: 9.62 %
+
+Max Counter Value: 64
+Min Counter Value: 34
+Mean Counter Value: 51
+
+Mean Absolute Deviation: 5.4 
+Standard Deviation: 8.01 
+Maximum Deviation: 17 
+Variance: 64.22
+
+
+===Character z===
+
+Exact count: 48
+Mean Absolute Error: 6.2 
+Mean Relative Error: 12.92 %
+
+Max Counter Value: 60
+Min Counter Value: 40
+Mean Counter Value: 49
+
+Mean Absolute Deviation: 6.0 
+Standard Deviation: 7.31 
+Maximum Deviation: 11 
+Variance: 53.38
+
+
+===Character p===
+
+Exact count: 48
+Mean Absolute Error: 6.2 
+Mean Relative Error: 12.92 %
+
+Max Counter Value: 56
+Min Counter Value: 30
+Mean Counter Value: 47
+
+Mean Absolute Deviation: 6.4 
+Standard Deviation: 8.17 
+Maximum Deviation: 17 
+Variance: 66.71
+
+
+===Character s===
+
+Exact count: 43
+Mean Absolute Error: 4.6 
+Mean Relative Error: 10.7 %
+
+Max Counter Value: 54
+Min Counter Value: 34
+Mean Counter Value: 43
+
+Mean Absolute Deviation: 4.6 
+Standard Deviation: 5.9 
+Maximum Deviation: 11 
+Variance: 34.84
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 143
+Mean Absolute Error: 36.7 
+Mean Relative Error: 25.66 %
+
+Max Counter Value: 217
+Min Counter Value: 108
+Mean Counter Value: 159
+
+Mean Absolute Deviation: 35.1 
+Standard Deviation: 44.77 
+Maximum Deviation: 58 
+Variance: 2004.23
+
+
+===Character u===
+
+Exact count: 119
+Mean Absolute Error: 44.4 
+Mean Relative Error: 37.31 %
+
+Max Counter Value: 308
+Min Counter Value: 76
+Mean Counter Value: 140
+
+Mean Absolute Deviation: 44.4 
+Standard Deviation: 66.8 
+Maximum Deviation: 168 
+Variance: 4462.49
+
+
+===Character f===
+
+Exact count: 109
+Mean Absolute Error: 62.2 
+Mean Relative Error: 57.06 %
+
+Max Counter Value: 217
+Min Counter Value: 53
+Mean Counter Value: 147
+
+Mean Absolute Deviation: 47.0 
+Standard Deviation: 61.25 
+Maximum Deviation: 94 
+Variance: 3751.29
+
+
+===Character n===
+
+Exact count: 99
+Mean Absolute Error: 36.5 
+Mean Relative Error: 36.87 %
+
+Max Counter Value: 217
+Min Counter Value: 53
+Mean Counter Value: 99
+
+Mean Absolute Deviation: 36.5 
+Standard Deviation: 49.68 
+Maximum Deviation: 118 
+Variance: 2467.79
+
+
+===Character r===
+
+Exact count: 98
+Mean Absolute Error: 19.4 
+Mean Relative Error: 19.8 %
+
+Max Counter Value: 108
+Min Counter Value: 53
+Mean Counter Value: 91
+
+Mean Absolute Deviation: 20.8 
+Standard Deviation: 23.74 
+Maximum Deviation: 38 
+Variance: 563.38
+
+
+===Character a===
+
+Exact count: 95
+Mean Absolute Error: 27.4 
+Mean Relative Error: 28.84 %
+
+Max Counter Value: 153
+Min Counter Value: 53
+Mean Counter Value: 90
+
+Mean Absolute Deviation: 27.4 
+Standard Deviation: 32.93 
+Maximum Deviation: 63 
+Variance: 1084.71
+
+
+===Character e===
+
+Exact count: 92
+Mean Absolute Error: 46.9 
+Mean Relative Error: 50.98 %
+
+Max Counter Value: 217
+Min Counter Value: 53
+Mean Counter Value: 114
+
+Mean Absolute Deviation: 49.3 
+Standard Deviation: 61.99 
+Maximum Deviation: 103 
+Variance: 3842.68
+
+
+===Character l===
+
+Exact count: 54
+Mean Absolute Error: 14.8 
+Mean Relative Error: 27.41 %
+
+Max Counter Value: 76
+Min Counter Value: 26
+Mean Counter Value: 52
+
+Mean Absolute Deviation: 14.6 
+Standard Deviation: 18.5 
+Maximum Deviation: 26 
+Variance: 342.27
+
+
+===Character o===
+
+Exact count: 52
+Mean Absolute Error: 18.3 
+Mean Relative Error: 35.19 %
+
+Max Counter Value: 108
+Min Counter Value: 18
+Mean Counter Value: 55
+
+Mean Absolute Deviation: 18.7 
+Standard Deviation: 26.33 
+Maximum Deviation: 53 
+Variance: 693.34
+
+
+===Character z===
+
+Exact count: 48
+Mean Absolute Error: 15.6 
+Mean Relative Error: 32.5 %
+
+Max Counter Value: 76
+Min Counter Value: 18
+Mean Counter Value: 40
+
+Mean Absolute Deviation: 12.4 
+Standard Deviation: 16.82 
+Maximum Deviation: 36 
+Variance: 282.89
+
+
+===Character p===
+
+Exact count: 48
+Mean Absolute Error: 13.9 
+Mean Relative Error: 28.96 %
+
+Max Counter Value: 76
+Min Counter Value: 12
+Mean Counter Value: 44
+
+Mean Absolute Deviation: 13.9 
+Standard Deviation: 17.77 
+Maximum Deviation: 32 
+Variance: 315.79
+
+
+===Character s===
+
+Exact count: 43
+Mean Absolute Error: 14.2 
+Mean Relative Error: 33.02 %
+
+Max Counter Value: 76
+Min Counter Value: 12
+Mean Counter Value: 39
+
+Mean Absolute Deviation: 12.6 
+Standard Deviation: 17.77 
+Maximum Deviation: 37 
+Variance: 315.82
+
+
+EXECUTION TIME: 0 secs.
+
+
+_______________________________________SEQUENCE SIZE 10000_______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |     1421      | 1368  | 1436  | 1494  | 1.06 %|  617  | 1156  | 1747  |18.65 %|
+|       n       |     1049      |  994  | 1041  | 1064  | 0.76 %|  436  | 1229  | 2471  |17.16 %|
+|       a       |     1043      | 1030  | 1062  | 1086  | 1.82 %|  436  |  953  | 1747  | 8.63 %|
+|       f       |     1022      |  962  | 1037  | 1096  | 1.47 %|  436  | 1000  | 1747  | 2.15 %|
+|       e       |     1021      |  962  | 1030  | 1114  | 0.88 %|  617  | 1280  | 3495  |25.37 %|
+|       u       |      991      |  930  |  979  | 1008  | 1.21 %|  436  |  912  | 1235  | 7.97 %|
+|       r       |      987      |  946  |  991  | 1034  | 0.41 %|  873  | 1069  | 1747  | 8.31 %|
+|       l       |      500      |  460  |  489  |  524  | 2.2  %|  217  |  517  |  873  | 3.4  %|
+|       s       |      499      |  484  |  502  |  548  | 0.6  %|  153  |  436  |  873  |12.63 %|
+|       z       |      499      |  490  |  514  |  534  | 3.01 %|  217  |  508  | 1235  | 1.8  %|
+|       p       |      489      |  450  |  483  |  526  | 1.23 %|  217  |  544  |  873  |11.25 %|
+|       o       |      479      |  454  |  474  |  496  | 1.04 %|  308  |  590  |  873  |23.17 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          e           |        False         |
+|          n           |          a           |        False         |          n           |         True         |
+|          a           |          n           |        False         |          i           |        False         |
+|          f           |          f           |         True         |          r           |        False         |
+|          e           |          e           |         True         |          f           |        False         |
+|          u           |          r           |        False         |          a           |        False         |
+|          r           |          u           |        False         |          u           |        False         |
+|          l           |          z           |        False         |          o           |        False         |
+|          s           |          s           |         True         |          p           |        False         |
+|          z           |          l           |        False         |          l           |        False         |
+|          p           |          p           |         True         |          z           |        False         |
+|          o           |          o           |         True         |          s           |        False         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 1421
+Mean Absolute Error: 36.2 
+Mean Relative Error: 2.55 %
+
+Max Counter Value: 1494
+Min Counter Value: 1368
+Mean Counter Value: 1436
+
+Mean Absolute Deviation: 32.6 
+Standard Deviation: 42.0 
+Maximum Deviation: 68 
+Variance: 1763.96
+
+
+===Character n===
+
+Exact count: 1049
+Mean Absolute Error: 19.4 
+Mean Relative Error: 1.85 %
+
+Max Counter Value: 1064
+Min Counter Value: 994
+Mean Counter Value: 1041
+
+Mean Absolute Deviation: 19.6 
+Standard Deviation: 23.78 
+Maximum Deviation: 47 
+Variance: 565.38
+
+
+===Character a===
+
+Exact count: 1043
+Mean Absolute Error: 22 
+Mean Relative Error: 2.11 %
+
+Max Counter Value: 1086
+Min Counter Value: 1030
+Mean Counter Value: 1062
+
+Mean Absolute Deviation: 12.4 
+Standard Deviation: 16.08 
+Maximum Deviation: 32 
+Variance: 258.49
+
+
+===Character f===
+
+Exact count: 1022
+Mean Absolute Error: 45 
+Mean Relative Error: 4.4 %
+
+Max Counter Value: 1096
+Min Counter Value: 962
+Mean Counter Value: 1037
+
+Mean Absolute Deviation: 43.0 
+Standard Deviation: 50.31 
+Maximum Deviation: 75 
+Variance: 2530.71
+
+
+===Character e===
+
+Exact count: 1021
+Mean Absolute Error: 33.4 
+Mean Relative Error: 3.27 %
+
+Max Counter Value: 1114
+Min Counter Value: 962
+Mean Counter Value: 1030
+
+Mean Absolute Deviation: 33.4 
+Standard Deviation: 43.98 
+Maximum Deviation: 84 
+Variance: 1934.62
+
+
+===Character u===
+
+Exact count: 991
+Mean Absolute Error: 22 
+Mean Relative Error: 2.22 %
+
+Max Counter Value: 1008
+Min Counter Value: 930
+Mean Counter Value: 979
+
+Mean Absolute Deviation: 21.4 
+Standard Deviation: 25.72 
+Maximum Deviation: 49 
+Variance: 661.38
+
+
+===Character r===
+
+Exact count: 987
+Mean Absolute Error: 20.8 
+Mean Relative Error: 2.11 %
+
+Max Counter Value: 1034
+Min Counter Value: 946
+Mean Counter Value: 991
+
+Mean Absolute Deviation: 20.2 
+Standard Deviation: 26.82 
+Maximum Deviation: 45 
+Variance: 719.33
+
+
+===Character l===
+
+Exact count: 500
+Mean Absolute Error: 16.6 
+Mean Relative Error: 3.32 %
+
+Max Counter Value: 524
+Min Counter Value: 460
+Mean Counter Value: 489
+
+Mean Absolute Deviation: 15.2 
+Standard Deviation: 19.57 
+Maximum Deviation: 35 
+Variance: 383.16
+
+
+===Character s===
+
+Exact count: 499
+Mean Absolute Error: 14.2 
+Mean Relative Error: 2.85 %
+
+Max Counter Value: 548
+Min Counter Value: 484
+Mean Counter Value: 502
+
+Mean Absolute Deviation: 14.8 
+Standard Deviation: 19.66 
+Maximum Deviation: 46 
+Variance: 386.49
+
+
+===Character z===
+
+Exact count: 499
+Mean Absolute Error: 17.6 
+Mean Relative Error: 3.53 %
+
+Max Counter Value: 534
+Min Counter Value: 490
+Mean Counter Value: 514
+
+Mean Absolute Deviation: 13.4 
+Standard Deviation: 15.65 
+Maximum Deviation: 24 
+Variance: 244.84
+
+
+===Character p===
+
+Exact count: 489
+Mean Absolute Error: 16.4 
+Mean Relative Error: 3.35 %
+
+Max Counter Value: 526
+Min Counter Value: 450
+Mean Counter Value: 483
+
+Mean Absolute Deviation: 16.8 
+Standard Deviation: 22.4 
+Maximum Deviation: 43 
+Variance: 501.56
+
+
+===Character o===
+
+Exact count: 479
+Mean Absolute Error: 13.6 
+Mean Relative Error: 2.84 %
+
+Max Counter Value: 496
+Min Counter Value: 454
+Mean Counter Value: 474
+
+Mean Absolute Deviation: 12.4 
+Standard Deviation: 15.35 
+Maximum Deviation: 22 
+Variance: 235.56
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 1421
+Mean Absolute Error: 460.2 
+Mean Relative Error: 32.39 %
+
+Max Counter Value: 1747
+Min Counter Value: 617
+Mean Counter Value: 1156
+
+Mean Absolute Deviation: 385.8 
+Standard Deviation: 457.24 
+Maximum Deviation: 591 
+Variance: 209070.27
+
+
+===Character n===
+
+Exact count: 1049
+Mean Absolute Error: 495.4 
+Mean Relative Error: 47.23 %
+
+Max Counter Value: 2471
+Min Counter Value: 436
+Mean Counter Value: 1229
+
+Mean Absolute Deviation: 459.4 
+Standard Deviation: 631.62 
+Maximum Deviation: 1242 
+Variance: 398943.29
+
+
+===Character a===
+
+Exact count: 1043
+Mean Absolute Error: 269.3 
+Mean Relative Error: 25.82 %
+
+Max Counter Value: 1747
+Min Counter Value: 436
+Mean Counter Value: 953
+
+Mean Absolute Deviation: 215.3 
+Standard Deviation: 336.99 
+Maximum Deviation: 794 
+Variance: 113560.99
+
+
+===Character f===
+
+Exact count: 1022
+Mean Absolute Error: 397.5 
+Mean Relative Error: 38.89 %
+
+Max Counter Value: 1747
+Min Counter Value: 436
+Mean Counter Value: 1000
+
+Mean Absolute Deviation: 393.1 
+Standard Deviation: 473.39 
+Maximum Deviation: 747 
+Variance: 224098.68
+
+
+===Character e===
+
+Exact count: 1021
+Mean Absolute Error: 509.4 
+Mean Relative Error: 49.89 %
+
+Max Counter Value: 3495
+Min Counter Value: 617
+Mean Counter Value: 1280
+
+Mean Absolute Deviation: 536.4 
+Standard Deviation: 850.26 
+Maximum Deviation: 2215 
+Variance: 722941.56
+
+
+===Character u===
+
+Exact count: 991
+Mean Absolute Error: 225.1 
+Mean Relative Error: 22.71 %
+
+Max Counter Value: 1235
+Min Counter Value: 436
+Mean Counter Value: 912
+
+Mean Absolute Deviation: 193.5 
+Standard Deviation: 265.45 
+Maximum Deviation: 476 
+Variance: 70465.79
+
+
+===Character r===
+
+Exact count: 987
+Mean Absolute Error: 218.8 
+Mean Relative Error: 22.17 %
+
+Max Counter Value: 1747
+Min Counter Value: 873
+Mean Counter Value: 1069
+
+Mean Absolute Deviation: 235.2 
+Standard Deviation: 293.04 
+Maximum Deviation: 678 
+Variance: 85872
+
+
+===Character l===
+
+Exact count: 500
+Mean Absolute Error: 202 
+Mean Relative Error: 40.4 %
+
+Max Counter Value: 873
+Min Counter Value: 217
+Mean Counter Value: 517
+
+Mean Absolute Deviation: 202.0 
+Standard Deviation: 238.3 
+Maximum Deviation: 356 
+Variance: 56786.04
+
+
+===Character s===
+
+Exact count: 499
+Mean Absolute Error: 184.6 
+Mean Relative Error: 36.99 %
+
+Max Counter Value: 873
+Min Counter Value: 153
+Mean Counter Value: 436
+
+Mean Absolute Deviation: 159.4 
+Standard Deviation: 211.37 
+Maximum Deviation: 437 
+Variance: 44679.38
+
+
+===Character z===
+
+Exact count: 499
+Mean Absolute Error: 236.3 
+Mean Relative Error: 47.35 %
+
+Max Counter Value: 1235
+Min Counter Value: 217
+Mean Counter Value: 508
+
+Mean Absolute Deviation: 239.9 
+Standard Deviation: 322.93 
+Maximum Deviation: 727 
+Variance: 104283.12
+
+
+===Character p===
+
+Exact count: 489
+Mean Absolute Error: 174.9 
+Mean Relative Error: 35.77 %
+
+Max Counter Value: 873
+Min Counter Value: 217
+Mean Counter Value: 544
+
+Mean Absolute Deviation: 152.9 
+Standard Deviation: 201.59 
+Maximum Deviation: 329 
+Variance: 40637.17
+
+
+===Character o===
+
+Exact count: 479
+Mean Absolute Error: 180.1 
+Mean Relative Error: 37.6 %
+
+Max Counter Value: 873
+Min Counter Value: 308
+Mean Counter Value: 590
+
+Mean Absolute Deviation: 180.1 
+Standard Deviation: 215.02 
+Maximum Deviation: 283 
+Variance: 46234.5
+
+
+EXECUTION TIME: 0 secs.
+
+
+______________________________________SEQUENCE SIZE 1000000______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |    150016     |149262 |149950 |150714 | 0.04 %| 79107 |160698 |316434 | 7.12 %|
+|       n       |    100246     | 99708 |100258 |101004 | 0.01 %| 27968 | 86620 |158216 |13.59 %|
+|       a       |    100187     | 99744 |100179 |101052 | 0.01 %| 55937 |120184 |223752 |19.96 %|
+|       r       |    100060     | 99606 |100174 |100580 | 0.11 %| 79107 |100125 |158216 | 0.06 %|
+|       f       |     99964     | 99520 | 99989 |100406 | 0.03 %| 55937 | 99166 |158216 | 0.8  %|
+|       e       |     99912     | 99292 | 99815 |100328 | 0.1  %| 39553 | 94134 |223752 | 5.78 %|
+|       u       |     99851     | 99372 |100001 |100430 | 0.15 %| 55937 | 85263 |223752 |14.61 %|
+|       p       |     50138     | 49922 | 50093 | 50274 | 0.09 %| 27968 | 48225 | 79107 | 3.82 %|
+|       l       |     50062     | 49534 | 50016 | 50468 | 0.09 %| 19776 | 37856 | 55937 |24.38 %|
+|       o       |     50009     | 49656 | 49925 | 50164 | 0.17 %| 19776 | 44129 | 79107 |11.76 %|
+|       z       |     49938     | 49640 | 49931 | 50212 | 0.01 %| 27968 | 44948 | 55937 | 9.99 %|
+|       s       |     49617     | 49194 | 49504 | 49758 | 0.23 %| 19776 | 43310 |111875 |12.71 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          n           |          n           |         True         |          a           |        False         |
+|          a           |          a           |         True         |          r           |        False         |
+|          r           |          r           |         True         |          f           |        False         |
+|          f           |          u           |        False         |          e           |        False         |
+|          e           |          f           |        False         |          n           |        False         |
+|          u           |          e           |        False         |          u           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          l           |          l           |         True         |          z           |        False         |
+|          o           |          z           |        False         |          o           |         True         |
+|          z           |          o           |        False         |          s           |        False         |
+|          s           |          s           |         True         |          l           |        False         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 150016
+Mean Absolute Error: 349.6 
+Mean Relative Error: 0.23 %
+
+Max Counter Value: 150714
+Min Counter Value: 149262
+Mean Counter Value: 149950
+
+Mean Absolute Deviation: 342.8 
+Standard Deviation: 436.85 
+Maximum Deviation: 764 
+Variance: 190841.78
+
+
+===Character n===
+
+Exact count: 100246
+Mean Absolute Error: 249 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 101004
+Min Counter Value: 99708
+Mean Counter Value: 100258
+
+Mean Absolute Deviation: 246.6 
+Standard Deviation: 357.53 
+Maximum Deviation: 746 
+Variance: 127830.62
+
+
+===Character a===
+
+Exact count: 100187
+Mean Absolute Error: 276.6 
+Mean Relative Error: 0.28 %
+
+Max Counter Value: 101052
+Min Counter Value: 99744
+Mean Counter Value: 100179
+
+Mean Absolute Deviation: 275.0 
+Standard Deviation: 379.66 
+Maximum Deviation: 873 
+Variance: 144139.73
+
+
+===Character r===
+
+Exact count: 100060
+Mean Absolute Error: 308.2 
+Mean Relative Error: 0.31 %
+
+Max Counter Value: 100580
+Min Counter Value: 99606
+Mean Counter Value: 100174
+
+Mean Absolute Deviation: 287.8 
+Standard Deviation: 343.24 
+Maximum Deviation: 568 
+Variance: 117811.07
+
+
+===Character f===
+
+Exact count: 99964
+Mean Absolute Error: 262.6 
+Mean Relative Error: 0.26 %
+
+Max Counter Value: 100406
+Min Counter Value: 99520
+Mean Counter Value: 99989
+
+Mean Absolute Deviation: 257.6 
+Standard Deviation: 314.32 
+Maximum Deviation: 469 
+Variance: 98798.27
+
+
+===Character e===
+
+Exact count: 99912
+Mean Absolute Error: 220.4 
+Mean Relative Error: 0.22 %
+
+Max Counter Value: 100328
+Min Counter Value: 99292
+Mean Counter Value: 99815
+
+Mean Absolute Deviation: 200.4 
+Standard Deviation: 287.95 
+Maximum Deviation: 523 
+Variance: 82916.62
+
+
+===Character u===
+
+Exact count: 99851
+Mean Absolute Error: 312 
+Mean Relative Error: 0.31 %
+
+Max Counter Value: 100430
+Min Counter Value: 99372
+Mean Counter Value: 100001
+
+Mean Absolute Deviation: 257.8 
+Standard Deviation: 334.79 
+Maximum Deviation: 629 
+Variance: 112086.4
+
+
+===Character p===
+
+Exact count: 50138
+Mean Absolute Error: 96.6 
+Mean Relative Error: 0.19 %
+
+Max Counter Value: 50274
+Min Counter Value: 49922
+Mean Counter Value: 50093
+
+Mean Absolute Deviation: 78.6 
+Standard Deviation: 105.84 
+Maximum Deviation: 181 
+Variance: 11201.11
+
+
+===Character l===
+
+Exact count: 50062
+Mean Absolute Error: 257 
+Mean Relative Error: 0.51 %
+
+Max Counter Value: 50468
+Min Counter Value: 49534
+Mean Counter Value: 50016
+
+Mean Absolute Deviation: 264.2 
+Standard Deviation: 314.87 
+Maximum Deviation: 482 
+Variance: 99145.29
+
+
+===Character o===
+
+Exact count: 50009
+Mean Absolute Error: 135.2 
+Mean Relative Error: 0.27 %
+
+Max Counter Value: 50164
+Min Counter Value: 49656
+Mean Counter Value: 49925
+
+Mean Absolute Deviation: 112.6 
+Standard Deviation: 154.1 
+Maximum Deviation: 269 
+Variance: 23747.78
+
+
+===Character z===
+
+Exact count: 49938
+Mean Absolute Error: 166.2 
+Mean Relative Error: 0.33 %
+
+Max Counter Value: 50212
+Min Counter Value: 49640
+Mean Counter Value: 49931
+
+Mean Absolute Deviation: 164.8 
+Standard Deviation: 195.54 
+Maximum Deviation: 291 
+Variance: 38234.89
+
+
+===Character s===
+
+Exact count: 49617
+Mean Absolute Error: 158.2 
+Mean Relative Error: 0.32 %
+
+Max Counter Value: 49758
+Min Counter Value: 49194
+Mean Counter Value: 49504
+
+Mean Absolute Deviation: 132.4 
+Standard Deviation: 166.44 
+Maximum Deviation: 310 
+Variance: 27701.16
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 150016
+Mean Absolute Error: 55376.3 
+Mean Relative Error: 36.91 %
+
+Max Counter Value: 316434
+Min Counter Value: 79107
+Mean Counter Value: 160698
+
+Mean Absolute Deviation: 56369.1 
+Standard Deviation: 73340.51 
+Maximum Deviation: 155736 
+Variance: 5378829863.57
+
+
+===Character n===
+
+Exact count: 100246
+Mean Absolute Error: 32196.9 
+Mean Relative Error: 32.12 %
+
+Max Counter Value: 158216
+Min Counter Value: 27968
+Mean Counter Value: 86620
+
+Mean Absolute Deviation: 29471.7 
+Standard Deviation: 39644.71 
+Maximum Deviation: 71596 
+Variance: 1571703019.17
+
+
+===Character a===
+
+Exact count: 100187
+Mean Absolute Error: 37278.5 
+Mean Relative Error: 37.21 %
+
+Max Counter Value: 223752
+Min Counter Value: 55937
+Mean Counter Value: 120184
+
+Mean Absolute Deviation: 35926.9 
+Standard Deviation: 48759.81 
+Maximum Deviation: 103568 
+Variance: 2377519051.17
+
+
+===Character r===
+
+Exact count: 100060
+Mean Absolute Error: 21018.1 
+Mean Relative Error: 21.01 %
+
+Max Counter Value: 158216
+Min Counter Value: 79107
+Mean Counter Value: 100125
+
+Mean Absolute Deviation: 21018.1 
+Standard Deviation: 26110.01 
+Maximum Deviation: 58091 
+Variance: 681732877.88
+
+
+===Character f===
+
+Exact count: 99964
+Mean Absolute Error: 38131.9 
+Mean Relative Error: 38.15 %
+
+Max Counter Value: 158216
+Min Counter Value: 55937
+Mean Counter Value: 99166
+
+Mean Absolute Deviation: 37972.3 
+Standard Deviation: 44014.59 
+Maximum Deviation: 59050 
+Variance: 1937283993.83
+
+
+===Character e===
+
+Exact count: 99912
+Mean Absolute Error: 40116.5 
+Mean Relative Error: 40.15 %
+
+Max Counter Value: 223752
+Min Counter Value: 39553
+Mean Counter Value: 94134
+
+Mean Absolute Deviation: 40116.5 
+Standard Deviation: 54936.13 
+Maximum Deviation: 129618 
+Variance: 3017977968.54
+
+
+===Character u===
+
+Exact count: 99851
+Mean Absolute Error: 41772.7 
+Mean Relative Error: 41.84 %
+
+Max Counter Value: 223752
+Min Counter Value: 55937
+Mean Counter Value: 85263
+
+Mean Absolute Deviation: 33019.9 
+Standard Deviation: 51962.77 
+Maximum Deviation: 138489 
+Variance: 2700129116.9
+
+
+===Character p===
+
+Exact count: 50138
+Mean Absolute Error: 13505.9 
+Mean Relative Error: 26.94 %
+
+Max Counter Value: 79107
+Min Counter Value: 27968
+Mean Counter Value: 48225
+
+Mean Absolute Deviation: 13888.5 
+Standard Deviation: 16856.63 
+Maximum Deviation: 30882 
+Variance: 284146041.66
+
+
+===Character l===
+
+Exact count: 50062
+Mean Absolute Error: 15730.5 
+Mean Relative Error: 31.42 %
+
+Max Counter Value: 55937
+Min Counter Value: 19776
+Mean Counter Value: 37856
+
+Mean Absolute Deviation: 11526.9 
+Standard Deviation: 13761.88 
+Maximum Deviation: 18081 
+Variance: 189389319.39
+
+
+===Character o===
+
+Exact count: 50009
+Mean Absolute Error: 15256.5 
+Mean Relative Error: 30.51 %
+
+Max Counter Value: 79107
+Min Counter Value: 19776
+Mean Counter Value: 44129
+
+Mean Absolute Deviation: 14080.5 
+Standard Deviation: 17701.2 
+Maximum Deviation: 34978 
+Variance: 313332317.21
+
+
+===Character z===
+
+Exact count: 49938
+Mean Absolute Error: 9789.1 
+Mean Relative Error: 19.6 %
+
+Max Counter Value: 55937
+Min Counter Value: 27968
+Mean Counter Value: 44948
+
+Mean Absolute Deviation: 8791.1 
+Standard Deviation: 10093.36 
+Maximum Deviation: 16980 
+Variance: 101875889.88
+
+
+===Character s===
+
+Exact count: 49617
+Mean Absolute Error: 20022.9 
+Mean Relative Error: 40.35 %
+
+Max Counter Value: 111875
+Min Counter Value: 19776
+Mean Counter Value: 43310
+
+Mean Absolute Deviation: 16238.7 
+Standard Deviation: 26403.39 
+Maximum Deviation: 68565 
+Variance: 697138986.01
+
+
+EXECUTION TIME: 5 secs.
+
+_________________________________________REPETITIONS 100_________________________________________
+
+________________________________________SEQUENCE SIZE 100________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       f       |      16       |   6   |  17   |  26   | 6.25 %|   5   |  16   |  37   | 0.0  %|
+|       r       |      12       |   6   |  13   |  22   | 8.33 %|   5   |  12   |  26   | 0.0  %|
+|       i       |      12       |   4   |  11   |  18   | 8.33 %|   5   |  13   |  37   | 8.33 %|
+|       u       |      11       |   4   |  10   |  20   | 9.09 %|   3   |  12   |  26   | 9.09 %|
+|       e       |      11       |   2   |  10   |  20   | 9.09 %|   3   |  12   |  37   | 9.09 %|
+|       a       |      11       |   2   |  12   |  22   | 9.09 %|   3   |  11   |  26   | 0.0  %|
+|       n       |       7       |   0   |   7   |  14   | 0.0  %|   3   |   7   |  12   | 0.0  %|
+|       o       |       7       |   0   |   7   |  12   | 0.0  %|   3   |   8   |  18   |14.29 %|
+|       s       |       5       |   0   |   5   |  10   | 0.0  %|   3   |   6   |  12   | 20.0 %|
+|       l       |       4       |   0   |   4   |   8   | 0.0  %|   2   |   5   |   8   | 25.0 %|
+|       p       |       3       |   0   |   3   |   6   | 0.0  %|   2   |   3   |   5   | 0.0  %|
+|       z       |       1       |   0   |   1   |   2   | 0.0  %|   2   |   2   |   2   |100.0 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          f           |          f           |         True         |          f           |         True         |
+|          r           |          r           |         True         |          i           |        False         |
+|          i           |          a           |        False         |          e           |        False         |
+|          u           |          i           |        False         |          r           |        False         |
+|          e           |          e           |         True         |          u           |        False         |
+|          a           |          u           |        False         |          a           |         True         |
+|          n           |          n           |         True         |          o           |        False         |
+|          o           |          o           |         True         |          n           |        False         |
+|          s           |          s           |         True         |          s           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character f===
+
+Exact count: 16
+Mean Absolute Error: 3.04 
+Mean Relative Error: 19.0 %
+
+Max Counter Value: 26
+Min Counter Value: 6
+Mean Counter Value: 17
+
+Mean Absolute Deviation: 3.02 
+Standard Deviation: 3.89 
+Maximum Deviation: 11 
+Variance: 15.1
+
+
+===Character r===
+
+Exact count: 12
+Mean Absolute Error: 2.92 
+Mean Relative Error: 24.33 %
+
+Max Counter Value: 22
+Min Counter Value: 6
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 2.94 
+Standard Deviation: 3.45 
+Maximum Deviation: 9 
+Variance: 11.89
+
+
+===Character i===
+
+Exact count: 12
+Mean Absolute Error: 2.5 
+Mean Relative Error: 20.83 %
+
+Max Counter Value: 18
+Min Counter Value: 4
+Mean Counter Value: 11
+
+Mean Absolute Deviation: 2.68 
+Standard Deviation: 3.29 
+Maximum Deviation: 7 
+Variance: 10.83
+
+
+===Character u===
+
+Exact count: 11
+Mean Absolute Error: 2.7 
+Mean Relative Error: 24.55 %
+
+Max Counter Value: 20
+Min Counter Value: 4
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 2.52 
+Standard Deviation: 3.26 
+Maximum Deviation: 10 
+Variance: 10.6
+
+
+===Character e===
+
+Exact count: 11
+Mean Absolute Error: 2.74 
+Mean Relative Error: 24.91 %
+
+Max Counter Value: 20
+Min Counter Value: 2
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 2.58 
+Standard Deviation: 3.33 
+Maximum Deviation: 10 
+Variance: 11.06
+
+
+===Character a===
+
+Exact count: 11
+Mean Absolute Error: 2.58 
+Mean Relative Error: 23.45 %
+
+Max Counter Value: 22
+Min Counter Value: 2
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 2.44 
+Standard Deviation: 3.18 
+Maximum Deviation: 10 
+Variance: 10.12
+
+
+===Character n===
+
+Exact count: 7
+Mean Absolute Error: 2.14 
+Mean Relative Error: 30.57 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.14 
+Standard Deviation: 2.63 
+Maximum Deviation: 7 
+Variance: 6.91
+
+
+===Character o===
+
+Exact count: 7
+Mean Absolute Error: 2.2 
+Mean Relative Error: 31.43 %
+
+Max Counter Value: 12
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.2 
+Standard Deviation: 2.67 
+Maximum Deviation: 7 
+Variance: 7.15
+
+
+===Character s===
+
+Exact count: 5
+Mean Absolute Error: 1.92 
+Mean Relative Error: 38.4 %
+
+Max Counter Value: 10
+Min Counter Value: 0
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 1.92 
+Standard Deviation: 2.28 
+Maximum Deviation: 5 
+Variance: 5.21
+
+
+===Character l===
+
+Exact count: 4
+Mean Absolute Error: 1.58 
+Mean Relative Error: 39.5 %
+
+Max Counter Value: 8
+Min Counter Value: 0
+Mean Counter Value: 4
+
+Mean Absolute Deviation: 1.58 
+Standard Deviation: 2.13 
+Maximum Deviation: 4 
+Variance: 4.56
+
+
+===Character p===
+
+Exact count: 3
+Mean Absolute Error: 1.5 
+Mean Relative Error: 50.0 %
+
+Max Counter Value: 6
+Min Counter Value: 0
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 1.5 
+Standard Deviation: 1.74 
+Maximum Deviation: 3 
+Variance: 3.03
+
+
+===Character z===
+
+Exact count: 1
+Mean Absolute Error: 1 
+Mean Relative Error: 100.0 %
+
+Max Counter Value: 2
+Min Counter Value: 0
+Mean Counter Value: 1
+
+Mean Absolute Deviation: 1.0 
+Standard Deviation: 0.98 
+Maximum Deviation: 1 
+Variance: 0.95
+
+
+
+DECREASING PROBABILITY
+===Character f===
+
+Exact count: 16
+Mean Absolute Error: 4.92 
+Mean Relative Error: 30.75 %
+
+Max Counter Value: 37
+Min Counter Value: 5
+Mean Counter Value: 16
+
+Mean Absolute Deviation: 4.92 
+Standard Deviation: 6.24 
+Maximum Deviation: 21 
+Variance: 38.93
+
+
+===Character r===
+
+Exact count: 12
+Mean Absolute Error: 3.85 
+Mean Relative Error: 32.08 %
+
+Max Counter Value: 26
+Min Counter Value: 5
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 3.85 
+Standard Deviation: 5.43 
+Maximum Deviation: 14 
+Variance: 29.47
+
+
+===Character i===
+
+Exact count: 12
+Mean Absolute Error: 3.83 
+Mean Relative Error: 31.92 %
+
+Max Counter Value: 37
+Min Counter Value: 5
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 4.21 
+Standard Deviation: 5.48 
+Maximum Deviation: 24 
+Variance: 30.02
+
+
+===Character u===
+
+Exact count: 11
+Mean Absolute Error: 4.15 
+Mean Relative Error: 37.73 %
+
+Max Counter Value: 26
+Min Counter Value: 3
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 3.89 
+Standard Deviation: 5.44 
+Maximum Deviation: 14 
+Variance: 29.54
+
+
+===Character e===
+
+Exact count: 11
+Mean Absolute Error: 4.02 
+Mean Relative Error: 36.55 %
+
+Max Counter Value: 37
+Min Counter Value: 3
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 3.72 
+Standard Deviation: 5.66 
+Maximum Deviation: 25 
+Variance: 31.99
+
+
+===Character a===
+
+Exact count: 11
+Mean Absolute Error: 3.86 
+Mean Relative Error: 35.09 %
+
+Max Counter Value: 26
+Min Counter Value: 3
+Mean Counter Value: 11
+
+Mean Absolute Deviation: 3.86 
+Standard Deviation: 4.99 
+Maximum Deviation: 15 
+Variance: 24.92
+
+
+===Character n===
+
+Exact count: 7
+Mean Absolute Error: 1.95 
+Mean Relative Error: 27.86 %
+
+Max Counter Value: 12
+Min Counter Value: 3
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 1.95 
+Standard Deviation: 2.35 
+Maximum Deviation: 5 
+Variance: 5.52
+
+
+===Character o===
+
+Exact count: 7
+Mean Absolute Error: 2.2 
+Mean Relative Error: 31.43 %
+
+Max Counter Value: 18
+Min Counter Value: 3
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 1.92 
+Standard Deviation: 2.74 
+Maximum Deviation: 10 
+Variance: 7.48
+
+
+===Character s===
+
+Exact count: 5
+Mean Absolute Error: 1.67 
+Mean Relative Error: 33.4 %
+
+Max Counter Value: 12
+Min Counter Value: 3
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 1.97 
+Standard Deviation: 2.27 
+Maximum Deviation: 6 
+Variance: 5.16
+
+
+===Character l===
+
+Exact count: 4
+Mean Absolute Error: 1.44 
+Mean Relative Error: 36.0 %
+
+Max Counter Value: 8
+Min Counter Value: 2
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 1.14 
+Standard Deviation: 1.64 
+Maximum Deviation: 3 
+Variance: 2.7
+
+
+===Character p===
+
+Exact count: 3
+Mean Absolute Error: 0.64 
+Mean Relative Error: 21.33 %
+
+Max Counter Value: 5
+Min Counter Value: 2
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 0.64 
+Standard Deviation: 0.99 
+Maximum Deviation: 2 
+Variance: 0.98
+
+
+===Character z===
+
+Exact count: 1
+Mean Absolute Error: 1 
+Mean Relative Error: 100.0 %
+
+Max Counter Value: 2
+Min Counter Value: 2
+Mean Counter Value: 2
+
+Mean Absolute Deviation: 0.0 
+Standard Deviation: 0.0 
+Maximum Deviation: 0 
+Variance: 0
+
+
+EXECUTION TIME: 0 secs.
+
+
+_______________________________________SEQUENCE SIZE 1000________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      132      |  104  |  133  |  166  | 0.76 %|  37   |  125  |  617  | 5.3  %|
+|       r       |      112      |  84   |  113  |  134  | 0.89 %|  37   |  113  |  308  | 0.89 %|
+|       f       |      108      |  84   |  107  |  136  | 0.93 %|  37   |  108  |  436  | 0.0  %|
+|       a       |      103      |  80   |  104  |  132  | 0.97 %|  37   |  104  |  308  | 0.97 %|
+|       u       |      100      |  70   |  100  |  122  | 0.0  %|  37   |  97   |  217  | 3.0  %|
+|       e       |      99       |  68   |  99   |  120  | 0.0  %|  37   |  102  |  217  | 3.03 %|
+|       n       |      99       |  74   |  98   |  116  | 1.01 %|  26   |  106  |  308  | 7.07 %|
+|       s       |      58       |  40   |  58   |  70   | 0.0  %|  18   |  54   |  153  | 6.9  %|
+|       o       |      56       |  36   |  55   |  72   | 1.79 %|  26   |  58   |  108  | 3.57 %|
+|       l       |      46       |  30   |  46   |  62   | 0.0  %|  18   |  49   |  153  | 6.52 %|
+|       z       |      45       |  32   |  46   |  62   | 2.22 %|  18   |  48   |  108  | 6.67 %|
+|       p       |      42       |  26   |  41   |  56   | 2.38 %|  18   |  43   |  108  | 2.38 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          f           |          f           |         True         |          f           |         True         |
+|          a           |          a           |         True         |          n           |        False         |
+|          u           |          u           |         True         |          a           |        False         |
+|          e           |          e           |         True         |          e           |         True         |
+|          n           |          n           |         True         |          u           |        False         |
+|          s           |          s           |         True         |          o           |        False         |
+|          o           |          o           |         True         |          s           |        False         |
+|          l           |          l           |         True         |          l           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 132
+Mean Absolute Error: 9.78 
+Mean Relative Error: 7.41 %
+
+Max Counter Value: 166
+Min Counter Value: 104
+Mean Counter Value: 133
+
+Mean Absolute Deviation: 9.68 
+Standard Deviation: 11.97 
+Maximum Deviation: 33 
+Variance: 143.3
+
+
+===Character r===
+
+Exact count: 112
+Mean Absolute Error: 9.38 
+Mean Relative Error: 8.38 %
+
+Max Counter Value: 134
+Min Counter Value: 84
+Mean Counter Value: 113
+
+Mean Absolute Deviation: 9.36 
+Standard Deviation: 11.24 
+Maximum Deviation: 29 
+Variance: 126.26
+
+
+===Character f===
+
+Exact count: 108
+Mean Absolute Error: 8.68 
+Mean Relative Error: 8.04 %
+
+Max Counter Value: 136
+Min Counter Value: 84
+Mean Counter Value: 107
+
+Mean Absolute Deviation: 8.66 
+Standard Deviation: 10.68 
+Maximum Deviation: 29 
+Variance: 114.14
+
+
+===Character a===
+
+Exact count: 103
+Mean Absolute Error: 7.84 
+Mean Relative Error: 7.61 %
+
+Max Counter Value: 132
+Min Counter Value: 80
+Mean Counter Value: 104
+
+Mean Absolute Deviation: 7.72 
+Standard Deviation: 10.23 
+Maximum Deviation: 28 
+Variance: 104.73
+
+
+===Character u===
+
+Exact count: 100
+Mean Absolute Error: 7.98 
+Mean Relative Error: 7.98 %
+
+Max Counter Value: 122
+Min Counter Value: 70
+Mean Counter Value: 100
+
+Mean Absolute Deviation: 7.98 
+Standard Deviation: 10.69 
+Maximum Deviation: 30 
+Variance: 114.32
+
+
+===Character e===
+
+Exact count: 99
+Mean Absolute Error: 8.24 
+Mean Relative Error: 8.32 %
+
+Max Counter Value: 120
+Min Counter Value: 68
+Mean Counter Value: 99
+
+Mean Absolute Deviation: 8.24 
+Standard Deviation: 10.42 
+Maximum Deviation: 31 
+Variance: 108.56
+
+
+===Character n===
+
+Exact count: 99
+Mean Absolute Error: 8.46 
+Mean Relative Error: 8.55 %
+
+Max Counter Value: 116
+Min Counter Value: 74
+Mean Counter Value: 98
+
+Mean Absolute Deviation: 8.4 
+Standard Deviation: 10.59 
+Maximum Deviation: 24 
+Variance: 112.21
+
+
+===Character s===
+
+Exact count: 58
+Mean Absolute Error: 5.68 
+Mean Relative Error: 9.79 %
+
+Max Counter Value: 70
+Min Counter Value: 40
+Mean Counter Value: 58
+
+Mean Absolute Deviation: 5.68 
+Standard Deviation: 7.15 
+Maximum Deviation: 18 
+Variance: 51.1
+
+
+===Character o===
+
+Exact count: 56
+Mean Absolute Error: 5.84 
+Mean Relative Error: 10.43 %
+
+Max Counter Value: 72
+Min Counter Value: 36
+Mean Counter Value: 55
+
+Mean Absolute Deviation: 5.78 
+Standard Deviation: 7.13 
+Maximum Deviation: 19 
+Variance: 50.78
+
+
+===Character l===
+
+Exact count: 46
+Mean Absolute Error: 5.62 
+Mean Relative Error: 12.22 %
+
+Max Counter Value: 62
+Min Counter Value: 30
+Mean Counter Value: 46
+
+Mean Absolute Deviation: 5.62 
+Standard Deviation: 6.93 
+Maximum Deviation: 16 
+Variance: 48.03
+
+
+===Character z===
+
+Exact count: 45
+Mean Absolute Error: 4.64 
+Mean Relative Error: 10.31 %
+
+Max Counter Value: 62
+Min Counter Value: 32
+Mean Counter Value: 46
+
+Mean Absolute Deviation: 4.5 
+Standard Deviation: 5.84 
+Maximum Deviation: 16 
+Variance: 34.08
+
+
+===Character p===
+
+Exact count: 42
+Mean Absolute Error: 5.36 
+Mean Relative Error: 12.76 %
+
+Max Counter Value: 56
+Min Counter Value: 26
+Mean Counter Value: 41
+
+Mean Absolute Deviation: 5.22 
+Standard Deviation: 6.31 
+Maximum Deviation: 15 
+Variance: 39.85
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 132
+Mean Absolute Error: 46.45 
+Mean Relative Error: 35.19 %
+
+Max Counter Value: 617
+Min Counter Value: 37
+Mean Counter Value: 125
+
+Mean Absolute Deviation: 44.49 
+Standard Deviation: 69.77 
+Maximum Deviation: 492 
+Variance: 4867.6
+
+
+===Character r===
+
+Exact count: 112
+Mean Absolute Error: 41.93 
+Mean Relative Error: 37.44 %
+
+Max Counter Value: 308
+Min Counter Value: 37
+Mean Counter Value: 113
+
+Mean Absolute Deviation: 42.31 
+Standard Deviation: 55.3 
+Maximum Deviation: 195 
+Variance: 3058.37
+
+
+===Character f===
+
+Exact count: 108
+Mean Absolute Error: 36.9 
+Mean Relative Error: 34.17 %
+
+Max Counter Value: 436
+Min Counter Value: 37
+Mean Counter Value: 108
+
+Mean Absolute Deviation: 36.9 
+Standard Deviation: 59.03 
+Maximum Deviation: 328 
+Variance: 3484.94
+
+
+===Character a===
+
+Exact count: 103
+Mean Absolute Error: 35.53 
+Mean Relative Error: 34.5 %
+
+Max Counter Value: 308
+Min Counter Value: 37
+Mean Counter Value: 104
+
+Mean Absolute Deviation: 35.49 
+Standard Deviation: 48.14 
+Maximum Deviation: 204 
+Variance: 2317.22
+
+
+===Character u===
+
+Exact count: 100
+Mean Absolute Error: 31.43 
+Mean Relative Error: 31.43 %
+
+Max Counter Value: 217
+Min Counter Value: 37
+Mean Counter Value: 97
+
+Mean Absolute Deviation: 31.13 
+Standard Deviation: 40.57 
+Maximum Deviation: 120 
+Variance: 1646.31
+
+
+===Character e===
+
+Exact count: 99
+Mean Absolute Error: 32.47 
+Mean Relative Error: 32.8 %
+
+Max Counter Value: 217
+Min Counter Value: 37
+Mean Counter Value: 102
+
+Mean Absolute Deviation: 32.23 
+Standard Deviation: 41.91 
+Maximum Deviation: 115 
+Variance: 1756.73
+
+
+===Character n===
+
+Exact count: 99
+Mean Absolute Error: 37.31 
+Mean Relative Error: 37.69 %
+
+Max Counter Value: 308
+Min Counter Value: 26
+Mean Counter Value: 106
+
+Mean Absolute Deviation: 36.89 
+Standard Deviation: 54.6 
+Maximum Deviation: 202 
+Variance: 2981.31
+
+
+===Character s===
+
+Exact count: 58
+Mean Absolute Error: 18.04 
+Mean Relative Error: 31.1 %
+
+Max Counter Value: 153
+Min Counter Value: 18
+Mean Counter Value: 54
+
+Mean Absolute Deviation: 16.04 
+Standard Deviation: 22.96 
+Maximum Deviation: 99 
+Variance: 527.18
+
+
+===Character o===
+
+Exact count: 56
+Mean Absolute Error: 18.5 
+Mean Relative Error: 33.04 %
+
+Max Counter Value: 108
+Min Counter Value: 26
+Mean Counter Value: 58
+
+Mean Absolute Deviation: 19.14 
+Standard Deviation: 23.34 
+Maximum Deviation: 50 
+Variance: 544.53
+
+
+===Character l===
+
+Exact count: 46
+Mean Absolute Error: 16.22 
+Mean Relative Error: 35.26 %
+
+Max Counter Value: 153
+Min Counter Value: 18
+Mean Counter Value: 49
+
+Mean Absolute Deviation: 16.28 
+Standard Deviation: 22.94 
+Maximum Deviation: 104 
+Variance: 526.29
+
+
+===Character z===
+
+Exact count: 45
+Mean Absolute Error: 15.5 
+Mean Relative Error: 34.44 %
+
+Max Counter Value: 108
+Min Counter Value: 18
+Mean Counter Value: 48
+
+Mean Absolute Deviation: 15.38 
+Standard Deviation: 19.52 
+Maximum Deviation: 60 
+Variance: 381.08
+
+
+===Character p===
+
+Exact count: 42
+Mean Absolute Error: 14.61 
+Mean Relative Error: 34.79 %
+
+Max Counter Value: 108
+Min Counter Value: 18
+Mean Counter Value: 43
+
+Mean Absolute Deviation: 14.89 
+Standard Deviation: 19.79 
+Maximum Deviation: 65 
+Variance: 391.54
+
+
+EXECUTION TIME: 0 secs.
+
+
+_______________________________________SEQUENCE SIZE 10000_______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |     1444      | 1356  | 1438  | 1550  | 0.42 %|  436  | 1496  | 3495  | 3.6  %|
+|       u       |     1062      |  996  | 1059  | 1124  | 0.28 %|  308  |  996  | 2471  | 6.21 %|
+|       f       |     1022      |  930  | 1028  | 1114  | 0.59 %|  308  | 1017  | 3495  | 0.49 %|
+|       n       |     1002      |  934  | 1003  | 1086  | 0.1  %|  436  |  985  | 2471  | 1.7  %|
+|       a       |      998      |  930  |  992  | 1070  | 0.6  %|  308  | 1010  | 2471  | 1.2  %|
+|       e       |      982      |  904  |  982  | 1050  | 0.0  %|  308  |  928  | 2471  | 5.5  %|
+|       r       |      964      |  878  |  964  | 1050  | 0.0  %|  436  |  961  | 1747  | 0.31 %|
+|       p       |      532      |  468  |  531  |  610  | 0.19 %|  153  |  526  | 1747  | 1.13 %|
+|       o       |      507      |  458  |  507  |  572  | 0.0  %|  217  |  534  | 1747  | 5.33 %|
+|       z       |      502      |  462  |  504  |  544  | 0.4  %|  153  |  488  | 1747  | 2.79 %|
+|       l       |      496      |  436  |  497  |  546  | 0.2  %|  153  |  522  | 1747  | 5.24 %|
+|       s       |      489      |  424  |  490  |  556  | 0.2  %|  217  |  483  | 1747  | 1.23 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          u           |          u           |         True         |          f           |        False         |
+|          f           |          f           |         True         |          a           |        False         |
+|          n           |          n           |         True         |          u           |        False         |
+|          a           |          a           |         True         |          n           |        False         |
+|          e           |          e           |         True         |          r           |        False         |
+|          r           |          r           |         True         |          e           |        False         |
+|          p           |          p           |         True         |          o           |        False         |
+|          o           |          o           |         True         |          p           |        False         |
+|          z           |          z           |         True         |          l           |        False         |
+|          l           |          l           |         True         |          z           |        False         |
+|          s           |          s           |         True         |          s           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 1444
+Mean Absolute Error: 30.22 
+Mean Relative Error: 2.09 %
+
+Max Counter Value: 1550
+Min Counter Value: 1356
+Mean Counter Value: 1438
+
+Mean Absolute Deviation: 29.7 
+Standard Deviation: 36.46 
+Maximum Deviation: 112 
+Variance: 1329.59
+
+
+===Character u===
+
+Exact count: 1062
+Mean Absolute Error: 23.2 
+Mean Relative Error: 2.18 %
+
+Max Counter Value: 1124
+Min Counter Value: 996
+Mean Counter Value: 1059
+
+Mean Absolute Deviation: 23.06 
+Standard Deviation: 28.24 
+Maximum Deviation: 65 
+Variance: 797.55
+
+
+===Character f===
+
+Exact count: 1022
+Mean Absolute Error: 27.66 
+Mean Relative Error: 2.71 %
+
+Max Counter Value: 1114
+Min Counter Value: 930
+Mean Counter Value: 1028
+
+Mean Absolute Deviation: 27.06 
+Standard Deviation: 34.04 
+Maximum Deviation: 98 
+Variance: 1158.74
+
+
+===Character n===
+
+Exact count: 1002
+Mean Absolute Error: 23.12 
+Mean Relative Error: 2.31 %
+
+Max Counter Value: 1086
+Min Counter Value: 934
+Mean Counter Value: 1003
+
+Mean Absolute Deviation: 23.06 
+Standard Deviation: 29.61 
+Maximum Deviation: 83 
+Variance: 876.6
+
+
+===Character a===
+
+Exact count: 998
+Mean Absolute Error: 23.98 
+Mean Relative Error: 2.4 %
+
+Max Counter Value: 1070
+Min Counter Value: 930
+Mean Counter Value: 992
+
+Mean Absolute Deviation: 23.1 
+Standard Deviation: 29.23 
+Maximum Deviation: 78 
+Variance: 854.15
+
+
+===Character e===
+
+Exact count: 982
+Mean Absolute Error: 24.22 
+Mean Relative Error: 2.47 %
+
+Max Counter Value: 1050
+Min Counter Value: 904
+Mean Counter Value: 982
+
+Mean Absolute Deviation: 24.22 
+Standard Deviation: 30.01 
+Maximum Deviation: 78 
+Variance: 900.85
+
+
+===Character r===
+
+Exact count: 964
+Mean Absolute Error: 29.54 
+Mean Relative Error: 3.06 %
+
+Max Counter Value: 1050
+Min Counter Value: 878
+Mean Counter Value: 964
+
+Mean Absolute Deviation: 29.54 
+Standard Deviation: 36.69 
+Maximum Deviation: 86 
+Variance: 1346.21
+
+
+===Character p===
+
+Exact count: 532
+Mean Absolute Error: 20.32 
+Mean Relative Error: 3.82 %
+
+Max Counter Value: 610
+Min Counter Value: 468
+Mean Counter Value: 531
+
+Mean Absolute Deviation: 20.32 
+Standard Deviation: 26.29 
+Maximum Deviation: 79 
+Variance: 691.02
+
+
+===Character o===
+
+Exact count: 507
+Mean Absolute Error: 17.18 
+Mean Relative Error: 3.39 %
+
+Max Counter Value: 572
+Min Counter Value: 458
+Mean Counter Value: 507
+
+Mean Absolute Deviation: 17.18 
+Standard Deviation: 21.66 
+Maximum Deviation: 65 
+Variance: 469.08
+
+
+===Character z===
+
+Exact count: 502
+Mean Absolute Error: 16.14 
+Mean Relative Error: 3.22 %
+
+Max Counter Value: 544
+Min Counter Value: 462
+Mean Counter Value: 504
+
+Mean Absolute Deviation: 16.02 
+Standard Deviation: 19.36 
+Maximum Deviation: 42 
+Variance: 374.76
+
+
+===Character l===
+
+Exact count: 496
+Mean Absolute Error: 17.12 
+Mean Relative Error: 3.45 %
+
+Max Counter Value: 546
+Min Counter Value: 436
+Mean Counter Value: 497
+
+Mean Absolute Deviation: 17.14 
+Standard Deviation: 22.06 
+Maximum Deviation: 61 
+Variance: 486.67
+
+
+===Character s===
+
+Exact count: 489
+Mean Absolute Error: 18.72 
+Mean Relative Error: 3.83 %
+
+Max Counter Value: 556
+Min Counter Value: 424
+Mean Counter Value: 490
+
+Mean Absolute Deviation: 18.7 
+Standard Deviation: 23.52 
+Maximum Deviation: 66 
+Variance: 553.17
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 1444
+Mean Absolute Error: 544.97 
+Mean Relative Error: 37.74 %
+
+Max Counter Value: 3495
+Min Counter Value: 436
+Mean Counter Value: 1496
+
+Mean Absolute Deviation: 555.37 
+Standard Deviation: 718.33 
+Maximum Deviation: 1999 
+Variance: 516003.1
+
+
+===Character u===
+
+Exact count: 1062
+Mean Absolute Error: 344.23 
+Mean Relative Error: 32.41 %
+
+Max Counter Value: 2471
+Min Counter Value: 308
+Mean Counter Value: 996
+
+Mean Absolute Deviation: 323.11 
+Standard Deviation: 439.77 
+Maximum Deviation: 1475 
+Variance: 193400.87
+
+
+===Character f===
+
+Exact count: 1022
+Mean Absolute Error: 349.88 
+Mean Relative Error: 34.23 %
+
+Max Counter Value: 3495
+Min Counter Value: 308
+Mean Counter Value: 1017
+
+Mean Absolute Deviation: 348.48 
+Standard Deviation: 491.7 
+Maximum Deviation: 2478 
+Variance: 241765.5
+
+
+===Character n===
+
+Exact count: 1002
+Mean Absolute Error: 314.87 
+Mean Relative Error: 31.42 %
+
+Max Counter Value: 2471
+Min Counter Value: 436
+Mean Counter Value: 985
+
+Mean Absolute Deviation: 311.81 
+Standard Deviation: 378.01 
+Maximum Deviation: 1486 
+Variance: 142893.05
+
+
+===Character a===
+
+Exact count: 998
+Mean Absolute Error: 334.5 
+Mean Relative Error: 33.52 %
+
+Max Counter Value: 2471
+Min Counter Value: 308
+Mean Counter Value: 1010
+
+Mean Absolute Deviation: 336.66 
+Standard Deviation: 421.49 
+Maximum Deviation: 1461 
+Variance: 177654.1
+
+
+===Character e===
+
+Exact count: 982
+Mean Absolute Error: 327.44 
+Mean Relative Error: 33.34 %
+
+Max Counter Value: 2471
+Min Counter Value: 308
+Mean Counter Value: 928
+
+Mean Absolute Deviation: 311.24 
+Standard Deviation: 398.93 
+Maximum Deviation: 1543 
+Variance: 159148.32
+
+
+===Character r===
+
+Exact count: 964
+Mean Absolute Error: 326.74 
+Mean Relative Error: 33.89 %
+
+Max Counter Value: 1747
+Min Counter Value: 436
+Mean Counter Value: 961
+
+Mean Absolute Deviation: 325.96 
+Standard Deviation: 392.12 
+Maximum Deviation: 786 
+Variance: 153756.81
+
+
+===Character p===
+
+Exact count: 532
+Mean Absolute Error: 212.45 
+Mean Relative Error: 39.93 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 526
+
+Mean Absolute Deviation: 211.37 
+Standard Deviation: 271.03 
+Maximum Deviation: 1221 
+Variance: 73456.95
+
+
+===Character o===
+
+Exact count: 507
+Mean Absolute Error: 178.48 
+Mean Relative Error: 35.2 %
+
+Max Counter Value: 1747
+Min Counter Value: 217
+Mean Counter Value: 534
+
+Mean Absolute Deviation: 182.26 
+Standard Deviation: 247.91 
+Maximum Deviation: 1213 
+Variance: 61458.42
+
+
+===Character z===
+
+Exact count: 502
+Mean Absolute Error: 180.77 
+Mean Relative Error: 36.01 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 488
+
+Mean Absolute Deviation: 176.57 
+Standard Deviation: 239.37 
+Maximum Deviation: 1259 
+Variance: 57296.93
+
+
+===Character l===
+
+Exact count: 496
+Mean Absolute Error: 179.17 
+Mean Relative Error: 36.12 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 522
+
+Mean Absolute Deviation: 184.37 
+Standard Deviation: 261.86 
+Maximum Deviation: 1225 
+Variance: 68568.34
+
+
+===Character s===
+
+Exact count: 489
+Mean Absolute Error: 161.82 
+Mean Relative Error: 33.09 %
+
+Max Counter Value: 1747
+Min Counter Value: 217
+Mean Counter Value: 483
+
+Mean Absolute Deviation: 159.9 
+Standard Deviation: 219.05 
+Maximum Deviation: 1264 
+Variance: 47982.45
+
+
+EXECUTION TIME: 1 secs.
+
+
+______________________________________SEQUENCE SIZE 1000000______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |    150024     |149170 |149973 |151162 | 0.03 %| 39553 |154867 |316434 | 3.23 %|
+|       e       |    100456     | 99560 |100407 |101338 | 0.05 %| 39553 |105380 |223752 | 4.9  %|
+|       f       |    100383     | 99578 |100435 |101346 | 0.05 %| 27968 |106315 |316434 | 5.91 %|
+|       u       |     99979     | 99306 | 99997 |100608 | 0.02 %| 39553 |102346 |316434 | 2.37 %|
+|       n       |     99887     | 99110 | 99856 |100652 | 0.03 %| 39553 | 94028 |223752 | 5.87 %|
+|       r       |     99745     | 99032 | 99802 |100602 | 0.06 %| 39553 |102199 |223752 | 2.46 %|
+|       a       |     99540     | 98704 | 99464 |100228 | 0.08 %| 27968 |103738 |316434 | 4.22 %|
+|       z       |     50259     | 49726 | 50238 | 50874 | 0.04 %| 19776 | 47819 |111875 | 4.85 %|
+|       o       |     50120     | 49592 | 50124 | 50564 | 0.01 %| 19776 | 45098 |111875 |10.02 %|
+|       p       |     50056     | 49624 | 50070 | 50598 | 0.03 %| 19776 | 52266 |111875 | 4.42 %|
+|       s       |     49882     | 49270 | 49881 | 50332 | 0.0  %| 19776 | 49920 |111875 | 0.08 %|
+|       l       |     49669     | 49098 | 49657 | 50228 | 0.02 %| 19776 | 53438 |158216 | 7.59 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          e           |          f           |        False         |          f           |        False         |
+|          f           |          e           |        False         |          e           |        False         |
+|          u           |          u           |         True         |          a           |        False         |
+|          n           |          n           |         True         |          u           |        False         |
+|          r           |          r           |         True         |          r           |         True         |
+|          a           |          a           |         True         |          n           |        False         |
+|          z           |          z           |         True         |          l           |        False         |
+|          o           |          o           |         True         |          p           |        False         |
+|          p           |          p           |         True         |          s           |        False         |
+|          s           |          s           |         True         |          z           |        False         |
+|          l           |          l           |         True         |          o           |        False         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 150024
+Mean Absolute Error: 341.52 
+Mean Relative Error: 0.23 %
+
+Max Counter Value: 151162
+Min Counter Value: 149170
+Mean Counter Value: 149973
+
+Mean Absolute Deviation: 337.0 
+Standard Deviation: 408.81 
+Maximum Deviation: 1189 
+Variance: 167129.23
+
+
+===Character e===
+
+Exact count: 100456
+Mean Absolute Error: 277.62 
+Mean Relative Error: 0.28 %
+
+Max Counter Value: 101338
+Min Counter Value: 99560
+Mean Counter Value: 100407
+
+Mean Absolute Deviation: 272.06 
+Standard Deviation: 348.05 
+Maximum Deviation: 931 
+Variance: 121136.25
+
+
+===Character f===
+
+Exact count: 100383
+Mean Absolute Error: 251.48 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 101346
+Min Counter Value: 99578
+Mean Counter Value: 100435
+
+Mean Absolute Deviation: 246.86 
+Standard Deviation: 326.17 
+Maximum Deviation: 911 
+Variance: 106386.85
+
+
+===Character u===
+
+Exact count: 99979
+Mean Absolute Error: 226.3 
+Mean Relative Error: 0.23 %
+
+Max Counter Value: 100608
+Min Counter Value: 99306
+Mean Counter Value: 99997
+
+Mean Absolute Deviation: 225.58 
+Standard Deviation: 276.98 
+Maximum Deviation: 691 
+Variance: 76715.27
+
+
+===Character n===
+
+Exact count: 99887
+Mean Absolute Error: 266.66 
+Mean Relative Error: 0.27 %
+
+Max Counter Value: 100652
+Min Counter Value: 99110
+Mean Counter Value: 99856
+
+Mean Absolute Deviation: 266.18 
+Standard Deviation: 333.7 
+Maximum Deviation: 796 
+Variance: 111356.58
+
+
+===Character r===
+
+Exact count: 99745
+Mean Absolute Error: 237.76 
+Mean Relative Error: 0.24 %
+
+Max Counter Value: 100602
+Min Counter Value: 99032
+Mean Counter Value: 99802
+
+Mean Absolute Deviation: 234.34 
+Standard Deviation: 293.33 
+Maximum Deviation: 800 
+Variance: 86042.83
+
+
+===Character a===
+
+Exact count: 99540
+Mean Absolute Error: 253.5 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 100228
+Min Counter Value: 98704
+Mean Counter Value: 99464
+
+Mean Absolute Deviation: 246.74 
+Standard Deviation: 303.33 
+Maximum Deviation: 764 
+Variance: 92011.97
+
+
+===Character z===
+
+Exact count: 50259
+Mean Absolute Error: 133.1 
+Mean Relative Error: 0.26 %
+
+Max Counter Value: 50874
+Min Counter Value: 49726
+Mean Counter Value: 50238
+
+Mean Absolute Deviation: 132.28 
+Standard Deviation: 171.94 
+Maximum Deviation: 636 
+Variance: 29562.88
+
+
+===Character o===
+
+Exact count: 50120
+Mean Absolute Error: 154.36 
+Mean Relative Error: 0.31 %
+
+Max Counter Value: 50564
+Min Counter Value: 49592
+Mean Counter Value: 50124
+
+Mean Absolute Deviation: 154.44 
+Standard Deviation: 199.27 
+Maximum Deviation: 532 
+Variance: 39709.03
+
+
+===Character p===
+
+Exact count: 50056
+Mean Absolute Error: 176.84 
+Mean Relative Error: 0.35 %
+
+Max Counter Value: 50598
+Min Counter Value: 49624
+Mean Counter Value: 50070
+
+Mean Absolute Deviation: 176.36 
+Standard Deviation: 213.92 
+Maximum Deviation: 528 
+Variance: 45760.89
+
+
+===Character s===
+
+Exact count: 49882
+Mean Absolute Error: 162.24 
+Mean Relative Error: 0.33 %
+
+Max Counter Value: 50332
+Min Counter Value: 49270
+Mean Counter Value: 49881
+
+Mean Absolute Deviation: 162.28 
+Standard Deviation: 212.11 
+Maximum Deviation: 611 
+Variance: 44992.69
+
+
+===Character l===
+
+Exact count: 49669
+Mean Absolute Error: 192.06 
+Mean Relative Error: 0.39 %
+
+Max Counter Value: 50228
+Min Counter Value: 49098
+Mean Counter Value: 49657
+
+Mean Absolute Deviation: 191.82 
+Standard Deviation: 241.53 
+Maximum Deviation: 571 
+Variance: 58338.55
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 150024
+Mean Absolute Error: 49092.14 
+Mean Relative Error: 32.72 %
+
+Max Counter Value: 316434
+Min Counter Value: 39553
+Mean Counter Value: 154867
+
+Mean Absolute Deviation: 48317.26 
+Standard Deviation: 65081.01 
+Maximum Deviation: 161567 
+Variance: 4235538094.25
+
+
+===Character e===
+
+Exact count: 100456
+Mean Absolute Error: 35434.78 
+Mean Relative Error: 35.27 %
+
+Max Counter Value: 223752
+Min Counter Value: 39553
+Mean Counter Value: 105380
+
+Mean Absolute Deviation: 35139.34 
+Standard Deviation: 45534.28 
+Maximum Deviation: 118372 
+Variance: 2073370629.8
+
+
+===Character f===
+
+Exact count: 100383
+Mean Absolute Error: 36120.44 
+Mean Relative Error: 35.98 %
+
+Max Counter Value: 316434
+Min Counter Value: 27968
+Mean Counter Value: 106315
+
+Mean Absolute Deviation: 35408.6 
+Standard Deviation: 51379.92 
+Maximum Deviation: 210119 
+Variance: 2639896456.03
+
+
+===Character u===
+
+Exact count: 99979
+Mean Absolute Error: 36514.59 
+Mean Relative Error: 36.52 %
+
+Max Counter Value: 316434
+Min Counter Value: 39553
+Mean Counter Value: 102346
+
+Mean Absolute Deviation: 36798.63 
+Standard Deviation: 50044.26 
+Maximum Deviation: 214088 
+Variance: 2504428101.21
+
+
+===Character n===
+
+Exact count: 99887
+Mean Absolute Error: 35393.34 
+Mean Relative Error: 35.43 %
+
+Max Counter Value: 223752
+Min Counter Value: 39553
+Mean Counter Value: 94028
+
+Mean Absolute Deviation: 33518.46 
+Standard Deviation: 43707.03 
+Maximum Deviation: 129724 
+Variance: 1910304296.8
+
+
+===Character r===
+
+Exact count: 99745
+Mean Absolute Error: 33998.3 
+Mean Relative Error: 34.09 %
+
+Max Counter Value: 223752
+Min Counter Value: 39553
+Mean Counter Value: 102199
+
+Mean Absolute Deviation: 33998.3 
+Standard Deviation: 41958.31 
+Maximum Deviation: 121553 
+Variance: 1760499862.68
+
+
+===Character a===
+
+Exact count: 99540
+Mean Absolute Error: 37839.34 
+Mean Relative Error: 38.01 %
+
+Max Counter Value: 316434
+Min Counter Value: 27968
+Mean Counter Value: 103738
+
+Mean Absolute Deviation: 37923.3 
+Standard Deviation: 53725.05 
+Maximum Deviation: 212696 
+Variance: 2886380805.35
+
+
+===Character z===
+
+Exact count: 50259
+Mean Absolute Error: 16817.45 
+Mean Relative Error: 33.46 %
+
+Max Counter Value: 111875
+Min Counter Value: 19776
+Mean Counter Value: 47819
+
+Mean Absolute Deviation: 16524.65 
+Standard Deviation: 20690.55 
+Maximum Deviation: 64056 
+Variance: 428098856.91
+
+
+===Character o===
+
+Exact count: 50120
+Mean Absolute Error: 17159.92 
+Mean Relative Error: 34.24 %
+
+Max Counter Value: 111875
+Min Counter Value: 19776
+Mean Counter Value: 45098
+
+Mean Absolute Deviation: 15552.88 
+Standard Deviation: 20559.95 
+Maximum Deviation: 66777 
+Variance: 422711387.82
+
+
+===Character p===
+
+Exact count: 50056
+Mean Absolute Error: 16605.27 
+Mean Relative Error: 33.17 %
+
+Max Counter Value: 111875
+Min Counter Value: 19776
+Mean Counter Value: 52266
+
+Mean Absolute Deviation: 16561.07 
+Standard Deviation: 20900.29 
+Maximum Deviation: 59609 
+Variance: 436822084.1
+
+
+===Character s===
+
+Exact count: 49882
+Mean Absolute Error: 17976.83 
+Mean Relative Error: 36.04 %
+
+Max Counter Value: 111875
+Min Counter Value: 19776
+Mean Counter Value: 49920
+
+Mean Absolute Deviation: 17977.59 
+Standard Deviation: 22648.48 
+Maximum Deviation: 61955 
+Variance: 512953496.03
+
+
+===Character l===
+
+Exact count: 49669
+Mean Absolute Error: 20156.74 
+Mean Relative Error: 40.58 %
+
+Max Counter Value: 158216
+Min Counter Value: 19776
+Mean Counter Value: 53438
+
+Mean Absolute Deviation: 20609.02 
+Standard Deviation: 26658.18 
+Maximum Deviation: 104778 
+Variance: 710658513.43
+
+
+EXECUTION TIME: 43 secs.
+
+________________________________________REPETITIONS 1000_________________________________________
+
+________________________________________SEQUENCE SIZE 100________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       f       |      16       |   4   |  16   |  28   | 0.0  %|   3   |  17   |  53   | 6.25 %|
+|       u       |      12       |   2   |  12   |  24   | 0.0  %|   3   |  13   |  37   | 8.33 %|
+|       i       |      12       |   2   |  12   |  22   | 0.0  %|   5   |  13   |  37   | 8.33 %|
+|       n       |      12       |   0   |  12   |  22   | 0.0  %|   3   |  13   |  37   | 8.33 %|
+|       a       |       8       |   0   |   8   |  16   | 0.0  %|   3   |   9   |  37   | 12.5 %|
+|       e       |       8       |   0   |   8   |  16   | 0.0  %|   3   |   9   |  26   | 12.5 %|
+|       p       |       7       |   0   |   7   |  14   | 0.0  %|   3   |   8   |  18   |14.29 %|
+|       r       |       7       |   0   |   7   |  14   | 0.0  %|   3   |   8   |  18   |14.29 %|
+|       s       |       7       |   0   |   7   |  14   | 0.0  %|   3   |   8   |  18   |14.29 %|
+|       o       |       6       |   0   |   6   |  12   | 0.0  %|   2   |   7   |  18   |16.67 %|
+|       z       |       3       |   0   |   3   |   6   | 0.0  %|   2   |   4   |   5   |33.33 %|
+|       l       |       2       |   0   |   2   |   4   | 0.0  %|   2   |   3   |   3   | 50.0 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          f           |          f           |         True         |          f           |         True         |
+|          u           |          n           |        False         |          n           |        False         |
+|          i           |          u           |        False         |          u           |        False         |
+|          n           |          i           |        False         |          i           |        False         |
+|          a           |          e           |        False         |          e           |        False         |
+|          e           |          a           |        False         |          a           |        False         |
+|          p           |          p           |         True         |          p           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          s           |          s           |         True         |          s           |         True         |
+|          o           |          o           |         True         |          o           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character f===
+
+Exact count: 16
+Mean Absolute Error: 3.13 
+Mean Relative Error: 19.56 %
+
+Max Counter Value: 28
+Min Counter Value: 4
+Mean Counter Value: 16
+
+Mean Absolute Deviation: 3.13 
+Standard Deviation: 4.06 
+Maximum Deviation: 12 
+Variance: 16.48
+
+
+===Character u===
+
+Exact count: 12
+Mean Absolute Error: 2.666 
+Mean Relative Error: 22.22 %
+
+Max Counter Value: 24
+Min Counter Value: 2
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 2.666 
+Standard Deviation: 3.43 
+Maximum Deviation: 12 
+Variance: 11.75
+
+
+===Character i===
+
+Exact count: 12
+Mean Absolute Error: 2.668 
+Mean Relative Error: 22.23 %
+
+Max Counter Value: 22
+Min Counter Value: 2
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 2.668 
+Standard Deviation: 3.39 
+Maximum Deviation: 10 
+Variance: 11.47
+
+
+===Character n===
+
+Exact count: 12
+Mean Absolute Error: 2.738 
+Mean Relative Error: 22.82 %
+
+Max Counter Value: 22
+Min Counter Value: 0
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 2.738 
+Standard Deviation: 3.54 
+Maximum Deviation: 12 
+Variance: 12.52
+
+
+===Character a===
+
+Exact count: 8
+Mean Absolute Error: 2.224 
+Mean Relative Error: 27.8 %
+
+Max Counter Value: 16
+Min Counter Value: 0
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.224 
+Standard Deviation: 2.87 
+Maximum Deviation: 8 
+Variance: 8.25
+
+
+===Character e===
+
+Exact count: 8
+Mean Absolute Error: 2.206 
+Mean Relative Error: 27.57 %
+
+Max Counter Value: 16
+Min Counter Value: 0
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.206 
+Standard Deviation: 2.85 
+Maximum Deviation: 8 
+Variance: 8.1
+
+
+===Character p===
+
+Exact count: 7
+Mean Absolute Error: 2.244 
+Mean Relative Error: 32.06 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.244 
+Standard Deviation: 2.73 
+Maximum Deviation: 7 
+Variance: 7.45
+
+
+===Character r===
+
+Exact count: 7
+Mean Absolute Error: 2.188 
+Mean Relative Error: 31.26 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.188 
+Standard Deviation: 2.66 
+Maximum Deviation: 7 
+Variance: 7.08
+
+
+===Character s===
+
+Exact count: 7
+Mean Absolute Error: 2.286 
+Mean Relative Error: 32.66 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.286 
+Standard Deviation: 2.76 
+Maximum Deviation: 7 
+Variance: 7.63
+
+
+===Character o===
+
+Exact count: 6
+Mean Absolute Error: 1.95 
+Mean Relative Error: 32.5 %
+
+Max Counter Value: 12
+Min Counter Value: 0
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 1.95 
+Standard Deviation: 2.53 
+Maximum Deviation: 6 
+Variance: 6.39
+
+
+===Character z===
+
+Exact count: 3
+Mean Absolute Error: 1.49 
+Mean Relative Error: 49.67 %
+
+Max Counter Value: 6
+Min Counter Value: 0
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 1.49 
+Standard Deviation: 1.72 
+Maximum Deviation: 3 
+Variance: 2.96
+
+
+===Character l===
+
+Exact count: 2
+Mean Absolute Error: 0.966 
+Mean Relative Error: 48.3 %
+
+Max Counter Value: 4
+Min Counter Value: 0
+Mean Counter Value: 2
+
+Mean Absolute Deviation: 0.966 
+Standard Deviation: 1.39 
+Maximum Deviation: 2 
+Variance: 1.93
+
+
+
+DECREASING PROBABILITY
+===Character f===
+
+Exact count: 16
+Mean Absolute Error: 5.498 
+Mean Relative Error: 34.36 %
+
+Max Counter Value: 53
+Min Counter Value: 3
+Mean Counter Value: 17
+
+Mean Absolute Deviation: 5.334 
+Standard Deviation: 7.15 
+Maximum Deviation: 36 
+Variance: 51.15
+
+
+===Character u===
+
+Exact count: 12
+Mean Absolute Error: 3.494 
+Mean Relative Error: 29.12 %
+
+Max Counter Value: 37
+Min Counter Value: 3
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 3.966 
+Standard Deviation: 5.21 
+Maximum Deviation: 24 
+Variance: 27.19
+
+
+===Character i===
+
+Exact count: 12
+Mean Absolute Error: 3.879 
+Mean Relative Error: 32.32 %
+
+Max Counter Value: 37
+Min Counter Value: 5
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 4.281 
+Standard Deviation: 5.53 
+Maximum Deviation: 24 
+Variance: 30.54
+
+
+===Character n===
+
+Exact count: 12
+Mean Absolute Error: 3.723 
+Mean Relative Error: 31.02 %
+
+Max Counter Value: 37
+Min Counter Value: 3
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 4.125 
+Standard Deviation: 5.32 
+Maximum Deviation: 24 
+Variance: 28.26
+
+
+===Character a===
+
+Exact count: 8
+Mean Absolute Error: 2.306 
+Mean Relative Error: 28.82 %
+
+Max Counter Value: 37
+Min Counter Value: 3
+Mean Counter Value: 9
+
+Mean Absolute Deviation: 2.712 
+Standard Deviation: 3.45 
+Maximum Deviation: 28 
+Variance: 11.92
+
+
+===Character e===
+
+Exact count: 8
+Mean Absolute Error: 2.533 
+Mean Relative Error: 31.66 %
+
+Max Counter Value: 26
+Min Counter Value: 3
+Mean Counter Value: 9
+
+Mean Absolute Deviation: 2.907 
+Standard Deviation: 3.81 
+Maximum Deviation: 17 
+Variance: 14.48
+
+
+===Character p===
+
+Exact count: 7
+Mean Absolute Error: 2.373 
+Mean Relative Error: 33.9 %
+
+Max Counter Value: 18
+Min Counter Value: 3
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.071 
+Standard Deviation: 2.99 
+Maximum Deviation: 10 
+Variance: 8.93
+
+
+===Character r===
+
+Exact count: 7
+Mean Absolute Error: 2.345 
+Mean Relative Error: 33.5 %
+
+Max Counter Value: 18
+Min Counter Value: 3
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.075 
+Standard Deviation: 2.99 
+Maximum Deviation: 10 
+Variance: 8.97
+
+
+===Character s===
+
+Exact count: 7
+Mean Absolute Error: 2.373 
+Mean Relative Error: 33.9 %
+
+Max Counter Value: 18
+Min Counter Value: 3
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.103 
+Standard Deviation: 3.01 
+Maximum Deviation: 10 
+Variance: 9.04
+
+
+===Character o===
+
+Exact count: 6
+Mean Absolute Error: 2.071 
+Mean Relative Error: 34.52 %
+
+Max Counter Value: 18
+Min Counter Value: 2
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.139 
+Standard Deviation: 2.53 
+Maximum Deviation: 11 
+Variance: 6.4
+
+
+===Character z===
+
+Exact count: 3
+Mean Absolute Error: 0.795 
+Mean Relative Error: 26.5 %
+
+Max Counter Value: 5
+Min Counter Value: 2
+Mean Counter Value: 4
+
+Mean Absolute Deviation: 1.083 
+Standard Deviation: 1.05 
+Maximum Deviation: 2 
+Variance: 1.11
+
+
+===Character l===
+
+Exact count: 2
+Mean Absolute Error: 0.707 
+Mean Relative Error: 35.35 %
+
+Max Counter Value: 3
+Min Counter Value: 2
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 0.293 
+Standard Deviation: 0.46 
+Maximum Deviation: 1 
+Variance: 0.21
+
+
+EXECUTION TIME: 6 secs.
+
+
+_______________________________________SEQUENCE SIZE 1000________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      142      |  106  |  142  |  174  | 0.0  %|  37   |  143  |  617  | 0.7  %|
+|       u       |      112      |  80   |  112  |  142  | 0.0  %|  37   |  112  |  436  | 0.0  %|
+|       n       |      110      |  80   |  110  |  142  | 0.0  %|  26   |  111  |  617  | 0.91 %|
+|       a       |      108      |  72   |  108  |  140  | 0.0  %|  26   |  110  |  436  | 1.85 %|
+|       f       |      102      |  72   |  102  |  132  | 0.0  %|  26   |  103  |  436  | 0.98 %|
+|       e       |      100      |  68   |  100  |  128  | 0.0  %|  26   |  100  |  308  | 0.0  %|
+|       r       |      86       |  52   |  86   |  116  | 0.0  %|  26   |  91   |  308  | 5.81 %|
+|       z       |      54       |  32   |  54   |  76   | 0.0  %|  12   |  55   |  217  | 1.85 %|
+|       s       |      53       |  30   |  53   |  76   | 0.0  %|  18   |  54   |  153  | 1.89 %|
+|       p       |      52       |  30   |  52   |  76   | 0.0  %|  18   |  54   |  217  | 3.85 %|
+|       o       |      41       |  22   |  41   |  64   | 0.0  %|  12   |  43   |  153  | 4.88 %|
+|       l       |      40       |  22   |  40   |  58   | 0.0  %|  12   |  41   |  153  | 2.5  %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          u           |          u           |         True         |          u           |         True         |
+|          n           |          n           |         True         |          n           |         True         |
+|          a           |          a           |         True         |          a           |         True         |
+|          f           |          f           |         True         |          f           |         True         |
+|          e           |          e           |         True         |          e           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          s           |          s           |         True         |          p           |        False         |
+|          p           |          p           |         True         |          s           |        False         |
+|          o           |          o           |         True         |          o           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 142
+Mean Absolute Error: 9.156 
+Mean Relative Error: 6.45 %
+
+Max Counter Value: 174
+Min Counter Value: 106
+Mean Counter Value: 142
+
+Mean Absolute Deviation: 9.156 
+Standard Deviation: 11.39 
+Maximum Deviation: 36 
+Variance: 129.75
+
+
+===Character u===
+
+Exact count: 112
+Mean Absolute Error: 8.404 
+Mean Relative Error: 7.5 %
+
+Max Counter Value: 142
+Min Counter Value: 80
+Mean Counter Value: 112
+
+Mean Absolute Deviation: 8.404 
+Standard Deviation: 10.46 
+Maximum Deviation: 32 
+Variance: 109.4
+
+
+===Character n===
+
+Exact count: 110
+Mean Absolute Error: 8.366 
+Mean Relative Error: 7.61 %
+
+Max Counter Value: 142
+Min Counter Value: 80
+Mean Counter Value: 110
+
+Mean Absolute Deviation: 8.366 
+Standard Deviation: 10.45 
+Maximum Deviation: 32 
+Variance: 109.18
+
+
+===Character a===
+
+Exact count: 108
+Mean Absolute Error: 8.074 
+Mean Relative Error: 7.48 %
+
+Max Counter Value: 140
+Min Counter Value: 72
+Mean Counter Value: 108
+
+Mean Absolute Deviation: 8.074 
+Standard Deviation: 10.17 
+Maximum Deviation: 36 
+Variance: 103.49
+
+
+===Character f===
+
+Exact count: 102
+Mean Absolute Error: 7.842 
+Mean Relative Error: 7.69 %
+
+Max Counter Value: 132
+Min Counter Value: 72
+Mean Counter Value: 102
+
+Mean Absolute Deviation: 7.842 
+Standard Deviation: 10.02 
+Maximum Deviation: 30 
+Variance: 100.43
+
+
+===Character e===
+
+Exact count: 100
+Mean Absolute Error: 7.844 
+Mean Relative Error: 7.84 %
+
+Max Counter Value: 128
+Min Counter Value: 68
+Mean Counter Value: 100
+
+Mean Absolute Deviation: 7.844 
+Standard Deviation: 9.8 
+Maximum Deviation: 32 
+Variance: 96.07
+
+
+===Character r===
+
+Exact count: 86
+Mean Absolute Error: 7.412 
+Mean Relative Error: 8.62 %
+
+Max Counter Value: 116
+Min Counter Value: 52
+Mean Counter Value: 86
+
+Mean Absolute Deviation: 7.412 
+Standard Deviation: 9.17 
+Maximum Deviation: 34 
+Variance: 84.15
+
+
+===Character z===
+
+Exact count: 54
+Mean Absolute Error: 6.082 
+Mean Relative Error: 11.26 %
+
+Max Counter Value: 76
+Min Counter Value: 32
+Mean Counter Value: 54
+
+Mean Absolute Deviation: 6.082 
+Standard Deviation: 7.61 
+Maximum Deviation: 22 
+Variance: 57.96
+
+
+===Character s===
+
+Exact count: 53
+Mean Absolute Error: 5.76 
+Mean Relative Error: 10.87 %
+
+Max Counter Value: 76
+Min Counter Value: 30
+Mean Counter Value: 53
+
+Mean Absolute Deviation: 5.76 
+Standard Deviation: 7.2 
+Maximum Deviation: 23 
+Variance: 51.77
+
+
+===Character p===
+
+Exact count: 52
+Mean Absolute Error: 5.696 
+Mean Relative Error: 10.95 %
+
+Max Counter Value: 76
+Min Counter Value: 30
+Mean Counter Value: 52
+
+Mean Absolute Deviation: 5.696 
+Standard Deviation: 7.22 
+Maximum Deviation: 24 
+Variance: 52.2
+
+
+===Character o===
+
+Exact count: 41
+Mean Absolute Error: 5.504 
+Mean Relative Error: 13.42 %
+
+Max Counter Value: 64
+Min Counter Value: 22
+Mean Counter Value: 41
+
+Mean Absolute Deviation: 5.504 
+Standard Deviation: 6.74 
+Maximum Deviation: 23 
+Variance: 45.37
+
+
+===Character l===
+
+Exact count: 40
+Mean Absolute Error: 5.068 
+Mean Relative Error: 12.67 %
+
+Max Counter Value: 58
+Min Counter Value: 22
+Mean Counter Value: 40
+
+Mean Absolute Deviation: 5.068 
+Standard Deviation: 6.35 
+Maximum Deviation: 18 
+Variance: 40.34
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 142
+Mean Absolute Error: 46.044 
+Mean Relative Error: 32.43 %
+
+Max Counter Value: 617
+Min Counter Value: 37
+Mean Counter Value: 143
+
+Mean Absolute Deviation: 46.006 
+Standard Deviation: 61.37 
+Maximum Deviation: 474 
+Variance: 3766.34
+
+
+===Character u===
+
+Exact count: 112
+Mean Absolute Error: 35.51 
+Mean Relative Error: 31.71 %
+
+Max Counter Value: 436
+Min Counter Value: 37
+Mean Counter Value: 112
+
+Mean Absolute Deviation: 35.51 
+Standard Deviation: 49.3 
+Maximum Deviation: 324 
+Variance: 2430.58
+
+
+===Character n===
+
+Exact count: 110
+Mean Absolute Error: 36.794 
+Mean Relative Error: 33.45 %
+
+Max Counter Value: 617
+Min Counter Value: 26
+Mean Counter Value: 111
+
+Mean Absolute Deviation: 37.258 
+Standard Deviation: 52.83 
+Maximum Deviation: 506 
+Variance: 2791.28
+
+
+===Character a===
+
+Exact count: 108
+Mean Absolute Error: 33.885 
+Mean Relative Error: 31.37 %
+
+Max Counter Value: 436
+Min Counter Value: 26
+Mean Counter Value: 110
+
+Mean Absolute Deviation: 34.777 
+Standard Deviation: 48.7 
+Maximum Deviation: 326 
+Variance: 2371.97
+
+
+===Character f===
+
+Exact count: 102
+Mean Absolute Error: 34.953 
+Mean Relative Error: 34.27 %
+
+Max Counter Value: 436
+Min Counter Value: 26
+Mean Counter Value: 103
+
+Mean Absolute Deviation: 34.913 
+Standard Deviation: 47.31 
+Maximum Deviation: 333 
+Variance: 2238.57
+
+
+===Character e===
+
+Exact count: 100
+Mean Absolute Error: 33.293 
+Mean Relative Error: 33.29 %
+
+Max Counter Value: 308
+Min Counter Value: 26
+Mean Counter Value: 100
+
+Mean Absolute Deviation: 33.293 
+Standard Deviation: 43.82 
+Maximum Deviation: 208 
+Variance: 1919.84
+
+
+===Character r===
+
+Exact count: 86
+Mean Absolute Error: 32.761 
+Mean Relative Error: 38.09 %
+
+Max Counter Value: 308
+Min Counter Value: 26
+Mean Counter Value: 91
+
+Mean Absolute Deviation: 33.761 
+Standard Deviation: 43.83 
+Maximum Deviation: 217 
+Variance: 1921.14
+
+
+===Character z===
+
+Exact count: 54
+Mean Absolute Error: 17.076 
+Mean Relative Error: 31.62 %
+
+Max Counter Value: 217
+Min Counter Value: 12
+Mean Counter Value: 55
+
+Mean Absolute Deviation: 17.514 
+Standard Deviation: 24.2 
+Maximum Deviation: 162 
+Variance: 585.47
+
+
+===Character s===
+
+Exact count: 53
+Mean Absolute Error: 16.713 
+Mean Relative Error: 31.53 %
+
+Max Counter Value: 153
+Min Counter Value: 18
+Mean Counter Value: 54
+
+Mean Absolute Deviation: 17.205 
+Standard Deviation: 24.34 
+Maximum Deviation: 99 
+Variance: 592.31
+
+
+===Character p===
+
+Exact count: 52
+Mean Absolute Error: 17.77 
+Mean Relative Error: 34.17 %
+
+Max Counter Value: 217
+Min Counter Value: 18
+Mean Counter Value: 54
+
+Mean Absolute Deviation: 18.086 
+Standard Deviation: 25.35 
+Maximum Deviation: 163 
+Variance: 642.7
+
+
+===Character o===
+
+Exact count: 41
+Mean Absolute Error: 13.684 
+Mean Relative Error: 33.38 %
+
+Max Counter Value: 153
+Min Counter Value: 12
+Mean Counter Value: 43
+
+Mean Absolute Deviation: 14.228 
+Standard Deviation: 18.31 
+Maximum Deviation: 110 
+Variance: 335.23
+
+
+===Character l===
+
+Exact count: 40
+Mean Absolute Error: 13.711 
+Mean Relative Error: 34.28 %
+
+Max Counter Value: 153
+Min Counter Value: 12
+Mean Counter Value: 41
+
+Mean Absolute Deviation: 14.059 
+Standard Deviation: 18.65 
+Maximum Deviation: 112 
+Variance: 347.94
+
+
+EXECUTION TIME: 13 secs.
+
+
+_______________________________________SEQUENCE SIZE 10000_______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |     1480      | 1348  | 1479  | 1600  | 0.07 %|  436  | 1456  | 4943  | 1.62 %|
+|       u       |     1033      |  932  | 1033  | 1152  | 0.0  %|  308  | 1050  | 3495  | 1.65 %|
+|       n       |     1018      |  930  | 1019  | 1100  | 0.1  %|  308  | 1026  | 4943  | 0.79 %|
+|       r       |     1007      |  908  | 1007  | 1110  | 0.0  %|  217  |  979  | 3495  | 2.78 %|
+|       f       |      997      |  890  |  998  | 1084  | 0.1  %|  308  | 1009  | 3495  | 1.2  %|
+|       a       |      991      |  888  |  990  | 1106  | 0.1  %|  308  |  993  | 3495  | 0.2  %|
+|       e       |      965      |  874  |  965  | 1062  | 0.0  %|  217  |  974  | 3495  | 0.93 %|
+|       l       |      523      |  442  |  524  |  604  | 0.19 %|  153  |  517  | 1747  | 1.15 %|
+|       p       |      519      |  444  |  520  |  586  | 0.19 %|  153  |  514  | 1747  | 0.96 %|
+|       o       |      496      |  416  |  496  |  568  | 0.0  %|  153  |  503  | 1747  | 1.41 %|
+|       z       |      493      |  426  |  493  |  572  | 0.0  %|  153  |  500  | 1747  | 1.42 %|
+|       s       |      478      |  398  |  478  |  542  | 0.0  %|  153  |  490  | 1235  | 2.51 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          u           |          u           |         True         |          u           |         True         |
+|          n           |          n           |         True         |          n           |         True         |
+|          r           |          r           |         True         |          f           |        False         |
+|          f           |          f           |         True         |          a           |        False         |
+|          a           |          a           |         True         |          r           |        False         |
+|          e           |          e           |         True         |          e           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          o           |          o           |         True         |          o           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          s           |          s           |         True         |          s           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 1480
+Mean Absolute Error: 30.454 
+Mean Relative Error: 2.06 %
+
+Max Counter Value: 1600
+Min Counter Value: 1348
+Mean Counter Value: 1479
+
+Mean Absolute Deviation: 30.468 
+Standard Deviation: 37.84 
+Maximum Deviation: 131 
+Variance: 1432.24
+
+
+===Character u===
+
+Exact count: 1033
+Mean Absolute Error: 25.784 
+Mean Relative Error: 2.5 %
+
+Max Counter Value: 1152
+Min Counter Value: 932
+Mean Counter Value: 1033
+
+Mean Absolute Deviation: 25.784 
+Standard Deviation: 32.16 
+Maximum Deviation: 119 
+Variance: 1034.44
+
+
+===Character n===
+
+Exact count: 1018
+Mean Absolute Error: 24.67 
+Mean Relative Error: 2.42 %
+
+Max Counter Value: 1100
+Min Counter Value: 930
+Mean Counter Value: 1019
+
+Mean Absolute Deviation: 24.694 
+Standard Deviation: 30.53 
+Maximum Deviation: 89 
+Variance: 931.89
+
+
+===Character r===
+
+Exact count: 1007
+Mean Absolute Error: 25.176 
+Mean Relative Error: 2.5 %
+
+Max Counter Value: 1110
+Min Counter Value: 908
+Mean Counter Value: 1007
+
+Mean Absolute Deviation: 25.176 
+Standard Deviation: 31.76 
+Maximum Deviation: 103 
+Variance: 1008.39
+
+
+===Character f===
+
+Exact count: 997
+Mean Absolute Error: 23.97 
+Mean Relative Error: 2.4 %
+
+Max Counter Value: 1084
+Min Counter Value: 890
+Mean Counter Value: 998
+
+Mean Absolute Deviation: 23.962 
+Standard Deviation: 30.46 
+Maximum Deviation: 108 
+Variance: 928.05
+
+
+===Character a===
+
+Exact count: 991
+Mean Absolute Error: 25.722 
+Mean Relative Error: 2.6 %
+
+Max Counter Value: 1106
+Min Counter Value: 888
+Mean Counter Value: 990
+
+Mean Absolute Deviation: 25.722 
+Standard Deviation: 32.27 
+Maximum Deviation: 116 
+Variance: 1041.07
+
+
+===Character e===
+
+Exact count: 965
+Mean Absolute Error: 24.714 
+Mean Relative Error: 2.56 %
+
+Max Counter Value: 1062
+Min Counter Value: 874
+Mean Counter Value: 965
+
+Mean Absolute Deviation: 24.714 
+Standard Deviation: 30.94 
+Maximum Deviation: 97 
+Variance: 957.55
+
+
+===Character l===
+
+Exact count: 523
+Mean Absolute Error: 18.184 
+Mean Relative Error: 3.48 %
+
+Max Counter Value: 604
+Min Counter Value: 442
+Mean Counter Value: 524
+
+Mean Absolute Deviation: 18.114 
+Standard Deviation: 22.85 
+Maximum Deviation: 82 
+Variance: 522.33
+
+
+===Character p===
+
+Exact count: 519
+Mean Absolute Error: 18.446 
+Mean Relative Error: 3.55 %
+
+Max Counter Value: 586
+Min Counter Value: 444
+Mean Counter Value: 520
+
+Mean Absolute Deviation: 18.408 
+Standard Deviation: 23.03 
+Maximum Deviation: 76 
+Variance: 530.36
+
+
+===Character o===
+
+Exact count: 496
+Mean Absolute Error: 17.346 
+Mean Relative Error: 3.5 %
+
+Max Counter Value: 568
+Min Counter Value: 416
+Mean Counter Value: 496
+
+Mean Absolute Deviation: 17.346 
+Standard Deviation: 21.97 
+Maximum Deviation: 80 
+Variance: 482.86
+
+
+===Character z===
+
+Exact count: 493
+Mean Absolute Error: 17.612 
+Mean Relative Error: 3.57 %
+
+Max Counter Value: 572
+Min Counter Value: 426
+Mean Counter Value: 493
+
+Mean Absolute Deviation: 17.612 
+Standard Deviation: 22.35 
+Maximum Deviation: 79 
+Variance: 499.55
+
+
+===Character s===
+
+Exact count: 478
+Mean Absolute Error: 17.108 
+Mean Relative Error: 3.58 %
+
+Max Counter Value: 542
+Min Counter Value: 398
+Mean Counter Value: 478
+
+Mean Absolute Deviation: 17.108 
+Standard Deviation: 21.66 
+Maximum Deviation: 80 
+Variance: 469.32
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 1480
+Mean Absolute Error: 498.826 
+Mean Relative Error: 33.7 %
+
+Max Counter Value: 4943
+Min Counter Value: 436
+Mean Counter Value: 1456
+
+Mean Absolute Deviation: 494.074 
+Standard Deviation: 633.79 
+Maximum Deviation: 3487 
+Variance: 401695.48
+
+
+===Character u===
+
+Exact count: 1033
+Mean Absolute Error: 365.075 
+Mean Relative Error: 35.34 %
+
+Max Counter Value: 3495
+Min Counter Value: 308
+Mean Counter Value: 1050
+
+Mean Absolute Deviation: 367.931 
+Standard Deviation: 474.61 
+Maximum Deviation: 2445 
+Variance: 225259.28
+
+
+===Character n===
+
+Exact count: 1018
+Mean Absolute Error: 355.552 
+Mean Relative Error: 34.93 %
+
+Max Counter Value: 4943
+Min Counter Value: 308
+Mean Counter Value: 1026
+
+Mean Absolute Deviation: 357.168 
+Standard Deviation: 468.66 
+Maximum Deviation: 3917 
+Variance: 219638.32
+
+
+===Character r===
+
+Exact count: 1007
+Mean Absolute Error: 338.894 
+Mean Relative Error: 33.65 %
+
+Max Counter Value: 3495
+Min Counter Value: 217
+Mean Counter Value: 979
+
+Mean Absolute Deviation: 330.774 
+Standard Deviation: 428.37 
+Maximum Deviation: 2516 
+Variance: 183498.41
+
+
+===Character f===
+
+Exact count: 997
+Mean Absolute Error: 359.173 
+Mean Relative Error: 36.03 %
+
+Max Counter Value: 3495
+Min Counter Value: 308
+Mean Counter Value: 1009
+
+Mean Absolute Deviation: 362.197 
+Standard Deviation: 462.16 
+Maximum Deviation: 2486 
+Variance: 213594.63
+
+
+===Character a===
+
+Exact count: 991
+Mean Absolute Error: 348.163 
+Mean Relative Error: 35.13 %
+
+Max Counter Value: 3495
+Min Counter Value: 308
+Mean Counter Value: 993
+
+Mean Absolute Deviation: 348.759 
+Standard Deviation: 451.58 
+Maximum Deviation: 2502 
+Variance: 203927.7
+
+
+===Character e===
+
+Exact count: 965
+Mean Absolute Error: 331.899 
+Mean Relative Error: 34.39 %
+
+Max Counter Value: 3495
+Min Counter Value: 217
+Mean Counter Value: 974
+
+Mean Absolute Deviation: 334.779 
+Standard Deviation: 439.5 
+Maximum Deviation: 2521 
+Variance: 193158.62
+
+
+===Character l===
+
+Exact count: 523
+Mean Absolute Error: 173.781 
+Mean Relative Error: 33.23 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 517
+
+Mean Absolute Deviation: 172.737 
+Standard Deviation: 219.66 
+Maximum Deviation: 1230 
+Variance: 48251.28
+
+
+===Character p===
+
+Exact count: 519
+Mean Absolute Error: 178.977 
+Mean Relative Error: 34.48 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 514
+
+Mean Absolute Deviation: 177.837 
+Standard Deviation: 235.29 
+Maximum Deviation: 1233 
+Variance: 55362.81
+
+
+===Character o===
+
+Exact count: 496
+Mean Absolute Error: 168.846 
+Mean Relative Error: 34.04 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 503
+
+Mean Absolute Deviation: 170.33 
+Standard Deviation: 214.84 
+Maximum Deviation: 1244 
+Variance: 46156.18
+
+
+===Character z===
+
+Exact count: 493
+Mean Absolute Error: 170.135 
+Mean Relative Error: 34.51 %
+
+Max Counter Value: 1747
+Min Counter Value: 153
+Mean Counter Value: 500
+
+Mean Absolute Deviation: 172.067 
+Standard Deviation: 224.4 
+Maximum Deviation: 1247 
+Variance: 50353.84
+
+
+===Character s===
+
+Exact count: 478
+Mean Absolute Error: 160.555 
+Mean Relative Error: 33.59 %
+
+Max Counter Value: 1235
+Min Counter Value: 153
+Mean Counter Value: 490
+
+Mean Absolute Deviation: 164.107 
+Standard Deviation: 208.26 
+Maximum Deviation: 745 
+Variance: 43373.61
+
+
+EXECUTION TIME: 23 secs.
+
+
+______________________________________SEQUENCE SIZE 1000000______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |    149681     |148430 |149683 |150816 | 0.0  %| 39553 |146267 |632870 | 2.28 %|
+|       e       |    100296     | 99418 |100296 |101192 | 0.0  %| 19776 |100678 |316434 | 0.38 %|
+|       a       |    100134     | 99198 |100136 |101122 | 0.0  %| 27968 | 97525 |223752 | 2.61 %|
+|       f       |    100097     | 99256 |100096 |101038 | 0.0  %| 27968 |100316 |447506 | 0.22 %|
+|       n       |     99867     | 98762 | 99865 |100922 | 0.0  %| 27968 | 98773 |316434 | 1.1  %|
+|       r       |     99712     | 98830 | 99713 |100770 | 0.0  %| 27968 | 98566 |447506 | 1.15 %|
+|       u       |     99689     | 98836 | 99682 |100594 | 0.01 %| 27968 | 98490 |316434 | 1.2  %|
+|       o       |     50296     | 49584 | 50297 | 50902 | 0.0  %| 13983 | 50244 |158216 | 0.1  %|
+|       z       |     50187     | 49392 | 50187 | 50880 | 0.0  %| 13983 | 49675 |158216 | 1.02 %|
+|       l       |     50041     | 49280 | 50034 | 50640 | 0.01 %| 13983 | 50157 |158216 | 0.23 %|
+|       p       |     50034     | 49296 | 50046 | 50742 | 0.02 %| 13983 | 49565 |158216 | 0.94 %|
+|       s       |     49966     | 49268 | 49967 | 50654 | 0.0  %| 13983 | 49945 |158216 | 0.04 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          e           |          e           |         True         |          e           |         True         |
+|          a           |          a           |         True         |          f           |        False         |
+|          f           |          f           |         True         |          n           |        False         |
+|          n           |          n           |         True         |          r           |        False         |
+|          r           |          r           |         True         |          u           |        False         |
+|          u           |          u           |         True         |          a           |        False         |
+|          o           |          o           |         True         |          o           |         True         |
+|          z           |          z           |         True         |          l           |        False         |
+|          l           |          p           |        False         |          s           |        False         |
+|          p           |          l           |        False         |          z           |        False         |
+|          s           |          s           |         True         |          p           |        False         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 149681
+Mean Absolute Error: 301.51 
+Mean Relative Error: 0.2 %
+
+Max Counter Value: 150816
+Min Counter Value: 148430
+Mean Counter Value: 149683
+
+Mean Absolute Deviation: 301.546 
+Standard Deviation: 383.71 
+Maximum Deviation: 1253 
+Variance: 147233.81
+
+
+===Character e===
+
+Exact count: 100296
+Mean Absolute Error: 253.134 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 101192
+Min Counter Value: 99418
+Mean Counter Value: 100296
+
+Mean Absolute Deviation: 253.134 
+Standard Deviation: 317.68 
+Maximum Deviation: 896 
+Variance: 100922.29
+
+
+===Character a===
+
+Exact count: 100134
+Mean Absolute Error: 248.178 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 101122
+Min Counter Value: 99198
+Mean Counter Value: 100136
+
+Mean Absolute Deviation: 248.254 
+Standard Deviation: 312.2 
+Maximum Deviation: 986 
+Variance: 97467.55
+
+
+===Character f===
+
+Exact count: 100097
+Mean Absolute Error: 255.194 
+Mean Relative Error: 0.25 %
+
+Max Counter Value: 101038
+Min Counter Value: 99256
+Mean Counter Value: 100096
+
+Mean Absolute Deviation: 255.182 
+Standard Deviation: 315.09 
+Maximum Deviation: 942 
+Variance: 99283.96
+
+
+===Character n===
+
+Exact count: 99867
+Mean Absolute Error: 243.044 
+Mean Relative Error: 0.24 %
+
+Max Counter Value: 100922
+Min Counter Value: 98762
+Mean Counter Value: 99865
+
+Mean Absolute Deviation: 242.996 
+Standard Deviation: 305.71 
+Maximum Deviation: 1103 
+Variance: 93461.08
+
+
+===Character r===
+
+Exact count: 99712
+Mean Absolute Error: 256.95 
+Mean Relative Error: 0.26 %
+
+Max Counter Value: 100770
+Min Counter Value: 98830
+Mean Counter Value: 99713
+
+Mean Absolute Deviation: 256.938 
+Standard Deviation: 320.75 
+Maximum Deviation: 1057 
+Variance: 102877.92
+
+
+===Character u===
+
+Exact count: 99689
+Mean Absolute Error: 243.698 
+Mean Relative Error: 0.24 %
+
+Max Counter Value: 100594
+Min Counter Value: 98836
+Mean Counter Value: 99682
+
+Mean Absolute Deviation: 243.618 
+Standard Deviation: 301.72 
+Maximum Deviation: 912 
+Variance: 91035.58
+
+
+===Character o===
+
+Exact count: 50296
+Mean Absolute Error: 176.31 
+Mean Relative Error: 0.35 %
+
+Max Counter Value: 50902
+Min Counter Value: 49584
+Mean Counter Value: 50297
+
+Mean Absolute Deviation: 176.304 
+Standard Deviation: 219.9 
+Maximum Deviation: 713 
+Variance: 48355.22
+
+
+===Character z===
+
+Exact count: 50187
+Mean Absolute Error: 182.61 
+Mean Relative Error: 0.36 %
+
+Max Counter Value: 50880
+Min Counter Value: 49392
+Mean Counter Value: 50187
+
+Mean Absolute Deviation: 182.61 
+Standard Deviation: 226.92 
+Maximum Deviation: 795 
+Variance: 51492.8
+
+
+===Character l===
+
+Exact count: 50041
+Mean Absolute Error: 178.282 
+Mean Relative Error: 0.36 %
+
+Max Counter Value: 50640
+Min Counter Value: 49280
+Mean Counter Value: 50034
+
+Mean Absolute Deviation: 178.2 
+Standard Deviation: 221.61 
+Maximum Deviation: 754 
+Variance: 49111.04
+
+
+===Character p===
+
+Exact count: 50034
+Mean Absolute Error: 175.618 
+Mean Relative Error: 0.35 %
+
+Max Counter Value: 50742
+Min Counter Value: 49296
+Mean Counter Value: 50046
+
+Mean Absolute Deviation: 175.454 
+Standard Deviation: 221.63 
+Maximum Deviation: 750 
+Variance: 49119.61
+
+
+===Character s===
+
+Exact count: 49966
+Mean Absolute Error: 178 
+Mean Relative Error: 0.36 %
+
+Max Counter Value: 50654
+Min Counter Value: 49268
+Mean Counter Value: 49967
+
+Mean Absolute Deviation: 177.99 
+Standard Deviation: 223.29 
+Maximum Deviation: 699 
+Variance: 49856.69
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 149681
+Mean Absolute Error: 48423.731 
+Mean Relative Error: 32.35 %
+
+Max Counter Value: 632870
+Min Counter Value: 39553
+Mean Counter Value: 146267
+
+Mean Absolute Deviation: 48348.623 
+Standard Deviation: 65751.75 
+Maximum Deviation: 486603 
+Variance: 4323292198.27
+
+
+===Character e===
+
+Exact count: 100296
+Mean Absolute Error: 35060.475 
+Mean Relative Error: 34.96 %
+
+Max Counter Value: 316434
+Min Counter Value: 19776
+Mean Counter Value: 100678
+
+Mean Absolute Deviation: 35081.103 
+Standard Deviation: 45852.08 
+Maximum Deviation: 215756 
+Variance: 2102413468.73
+
+
+===Character a===
+
+Exact count: 100134
+Mean Absolute Error: 32927.977 
+Mean Relative Error: 32.88 %
+
+Max Counter Value: 223752
+Min Counter Value: 27968
+Mean Counter Value: 97525
+
+Mean Absolute Deviation: 32724.475 
+Standard Deviation: 41263.48 
+Maximum Deviation: 126227 
+Variance: 1702674929.36
+
+
+===Character f===
+
+Exact count: 100097
+Mean Absolute Error: 34993.29 
+Mean Relative Error: 34.96 %
+
+Max Counter Value: 447506
+Min Counter Value: 27968
+Mean Counter Value: 100316
+
+Mean Absolute Deviation: 35013.438 
+Standard Deviation: 48552.25 
+Maximum Deviation: 347190 
+Variance: 2357320648.37
+
+
+===Character n===
+
+Exact count: 99867
+Mean Absolute Error: 34009.445 
+Mean Relative Error: 34.05 %
+
+Max Counter Value: 316434
+Min Counter Value: 27968
+Mean Counter Value: 98773
+
+Mean Absolute Deviation: 33908.797 
+Standard Deviation: 43199.79 
+Maximum Deviation: 217661 
+Variance: 1866221894.88
+
+
+===Character r===
+
+Exact count: 99712
+Mean Absolute Error: 34854.088 
+Mean Relative Error: 34.95 %
+
+Max Counter Value: 447506
+Min Counter Value: 27968
+Mean Counter Value: 98566
+
+Mean Absolute Deviation: 34760.116 
+Standard Deviation: 46415.97 
+Maximum Deviation: 348940 
+Variance: 2154441896.09
+
+
+===Character u===
+
+Exact count: 99689
+Mean Absolute Error: 34809.163 
+Mean Relative Error: 34.92 %
+
+Max Counter Value: 316434
+Min Counter Value: 27968
+Mean Counter Value: 98490
+
+Mean Absolute Deviation: 34674.875 
+Standard Deviation: 44917.46 
+Maximum Deviation: 217944 
+Variance: 2017578443.24
+
+
+===Character o===
+
+Exact count: 50296
+Mean Absolute Error: 17227.167 
+Mean Relative Error: 34.25 %
+
+Max Counter Value: 158216
+Min Counter Value: 13983
+Mean Counter Value: 50244
+
+Mean Absolute Deviation: 17222.903 
+Standard Deviation: 23126.24 
+Maximum Deviation: 107972 
+Variance: 534822774.54
+
+
+===Character z===
+
+Exact count: 50187
+Mean Absolute Error: 17281.609 
+Mean Relative Error: 34.43 %
+
+Max Counter Value: 158216
+Min Counter Value: 13983
+Mean Counter Value: 49675
+
+Mean Absolute Deviation: 17244.745 
+Standard Deviation: 21826.28 
+Maximum Deviation: 108541 
+Variance: 476386634.87
+
+
+===Character l===
+
+Exact count: 50041
+Mean Absolute Error: 17054.181 
+Mean Relative Error: 34.08 %
+
+Max Counter Value: 158216
+Min Counter Value: 13983
+Mean Counter Value: 50157
+
+Mean Absolute Deviation: 17059.517 
+Standard Deviation: 22106.56 
+Maximum Deviation: 108059 
+Variance: 488699917.4
+
+
+===Character p===
+
+Exact count: 50034
+Mean Absolute Error: 17170.887 
+Mean Relative Error: 34.32 %
+
+Max Counter Value: 158216
+Min Counter Value: 13983
+Mean Counter Value: 49565
+
+Mean Absolute Deviation: 17119.297 
+Standard Deviation: 22579.49 
+Maximum Deviation: 108651 
+Variance: 509833529.01
+
+
+===Character s===
+
+Exact count: 49966
+Mean Absolute Error: 16731.314 
+Mean Relative Error: 33.49 %
+
+Max Counter Value: 158216
+Min Counter Value: 13983
+Mean Counter Value: 49945
+
+Mean Absolute Deviation: 16730.096 
+Standard Deviation: 21828.93 
+Maximum Deviation: 108271 
+Variance: 476502166.14
+
+
+EXECUTION TIME: 447 secs.
+
+________________________________________REPETITIONS 10000________________________________________
+
+________________________________________SEQUENCE SIZE 100________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      18       |   4   |  18   |  34   | 0.0  %|   3   |  19   |  76   | 5.56 %|
+|       n       |      13       |   2   |  13   |  24   | 0.0  %|   3   |  14   |  53   | 7.69 %|
+|       a       |      12       |   0   |  12   |  24   | 0.0  %|   3   |  13   |  53   | 8.33 %|
+|       r       |       9       |   0   |   9   |  18   | 0.0  %|   3   |  10   |  37   |11.11 %|
+|       p       |       8       |   0   |   8   |  16   | 0.0  %|   2   |   9   |  37   | 12.5 %|
+|       u       |       7       |   0   |   7   |  14   | 0.0  %|   2   |   8   |  26   |14.29 %|
+|       e       |       7       |   0   |   7   |  14   | 0.0  %|   2   |   8   |  26   |14.29 %|
+|       f       |       7       |   0   |   7   |  14   | 0.0  %|   2   |   8   |  26   |14.29 %|
+|       z       |       6       |   0   |   6   |  12   | 0.0  %|   2   |   7   |  18   |16.67 %|
+|       o       |       6       |   0   |   6   |  12   | 0.0  %|   2   |   7   |  18   |16.67 %|
+|       s       |       4       |   0   |   4   |   8   | 0.0  %|   2   |   5   |   8   | 25.0 %|
+|       l       |       3       |   0   |   3   |   6   | 0.0  %|   2   |   4   |   5   |33.33 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          n           |          n           |         True         |          n           |         True         |
+|          a           |          a           |         True         |          a           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          u           |          e           |        False         |          e           |        False         |
+|          e           |          f           |        False         |          f           |        False         |
+|          f           |          u           |        False         |          u           |        False         |
+|          z           |          o           |        False         |          o           |        False         |
+|          o           |          z           |        False         |          z           |        False         |
+|          s           |          s           |         True         |          s           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 18
+Mean Absolute Error: 3.3344 
+Mean Relative Error: 18.52 %
+
+Max Counter Value: 34
+Min Counter Value: 4
+Mean Counter Value: 18
+
+Mean Absolute Deviation: 3.3344 
+Standard Deviation: 4.24 
+Maximum Deviation: 16 
+Variance: 17.99
+
+
+===Character n===
+
+Exact count: 13
+Mean Absolute Error: 2.9496 
+Mean Relative Error: 22.69 %
+
+Max Counter Value: 24
+Min Counter Value: 2
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 2.9496 
+Standard Deviation: 3.61 
+Maximum Deviation: 11 
+Variance: 13.04
+
+
+===Character a===
+
+Exact count: 12
+Mean Absolute Error: 2.7124 
+Mean Relative Error: 22.6 %
+
+Max Counter Value: 24
+Min Counter Value: 0
+Mean Counter Value: 12
+
+Mean Absolute Deviation: 2.7124 
+Standard Deviation: 3.46 
+Maximum Deviation: 12 
+Variance: 11.98
+
+
+===Character r===
+
+Exact count: 9
+Mean Absolute Error: 2.4646 
+Mean Relative Error: 27.38 %
+
+Max Counter Value: 18
+Min Counter Value: 0
+Mean Counter Value: 9
+
+Mean Absolute Deviation: 2.4646 
+Standard Deviation: 3.01 
+Maximum Deviation: 9 
+Variance: 9.04
+
+
+===Character p===
+
+Exact count: 8
+Mean Absolute Error: 2.2212 
+Mean Relative Error: 27.77 %
+
+Max Counter Value: 16
+Min Counter Value: 0
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.2212 
+Standard Deviation: 2.86 
+Maximum Deviation: 8 
+Variance: 8.17
+
+
+===Character u===
+
+Exact count: 7
+Mean Absolute Error: 2.1872 
+Mean Relative Error: 31.25 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.1872 
+Standard Deviation: 2.65 
+Maximum Deviation: 7 
+Variance: 7.04
+
+
+===Character e===
+
+Exact count: 7
+Mean Absolute Error: 2.1832 
+Mean Relative Error: 31.19 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.1832 
+Standard Deviation: 2.64 
+Maximum Deviation: 7 
+Variance: 6.96
+
+
+===Character f===
+
+Exact count: 7
+Mean Absolute Error: 2.2204 
+Mean Relative Error: 31.72 %
+
+Max Counter Value: 14
+Min Counter Value: 0
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.2204 
+Standard Deviation: 2.69 
+Maximum Deviation: 7 
+Variance: 7.24
+
+
+===Character z===
+
+Exact count: 6
+Mean Absolute Error: 1.8964 
+Mean Relative Error: 31.61 %
+
+Max Counter Value: 12
+Min Counter Value: 0
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 1.8964 
+Standard Deviation: 2.47 
+Maximum Deviation: 6 
+Variance: 6.12
+
+
+===Character o===
+
+Exact count: 6
+Mean Absolute Error: 1.8806 
+Mean Relative Error: 31.34 %
+
+Max Counter Value: 12
+Min Counter Value: 0
+Mean Counter Value: 6
+
+Mean Absolute Deviation: 1.8806 
+Standard Deviation: 2.45 
+Maximum Deviation: 6 
+Variance: 6.02
+
+
+===Character s===
+
+Exact count: 4
+Mean Absolute Error: 1.4812 
+Mean Relative Error: 37.03 %
+
+Max Counter Value: 8
+Min Counter Value: 0
+Mean Counter Value: 4
+
+Mean Absolute Deviation: 1.4812 
+Standard Deviation: 1.97 
+Maximum Deviation: 4 
+Variance: 3.89
+
+
+===Character l===
+
+Exact count: 3
+Mean Absolute Error: 1.5048 
+Mean Relative Error: 50.16 %
+
+Max Counter Value: 6
+Min Counter Value: 0
+Mean Counter Value: 3
+
+Mean Absolute Deviation: 1.5048 
+Standard Deviation: 1.74 
+Maximum Deviation: 3 
+Variance: 3.02
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 18
+Mean Absolute Error: 5.5183 
+Mean Relative Error: 30.66 %
+
+Max Counter Value: 76
+Min Counter Value: 3
+Mean Counter Value: 19
+
+Mean Absolute Deviation: 5.9421 
+Standard Deviation: 7.99 
+Maximum Deviation: 57 
+Variance: 63.76
+
+
+===Character n===
+
+Exact count: 13
+Mean Absolute Error: 4.307 
+Mean Relative Error: 33.13 %
+
+Max Counter Value: 53
+Min Counter Value: 3
+Mean Counter Value: 14
+
+Mean Absolute Deviation: 4.607 
+Standard Deviation: 5.76 
+Maximum Deviation: 39 
+Variance: 33.22
+
+
+===Character a===
+
+Exact count: 12
+Mean Absolute Error: 3.7231 
+Mean Relative Error: 31.03 %
+
+Max Counter Value: 53
+Min Counter Value: 3
+Mean Counter Value: 13
+
+Mean Absolute Deviation: 4.1427 
+Standard Deviation: 5.4 
+Maximum Deviation: 40 
+Variance: 29.21
+
+
+===Character r===
+
+Exact count: 9
+Mean Absolute Error: 3.0366 
+Mean Relative Error: 33.74 %
+
+Max Counter Value: 37
+Min Counter Value: 3
+Mean Counter Value: 10
+
+Mean Absolute Deviation: 3.2154 
+Standard Deviation: 3.94 
+Maximum Deviation: 27 
+Variance: 15.52
+
+
+===Character p===
+
+Exact count: 8
+Mean Absolute Error: 2.3642 
+Mean Relative Error: 29.55 %
+
+Max Counter Value: 37
+Min Counter Value: 2
+Mean Counter Value: 9
+
+Mean Absolute Deviation: 2.7628 
+Standard Deviation: 3.49 
+Maximum Deviation: 28 
+Variance: 12.21
+
+
+===Character u===
+
+Exact count: 7
+Mean Absolute Error: 2.4023 
+Mean Relative Error: 34.32 %
+
+Max Counter Value: 26
+Min Counter Value: 2
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.1377 
+Standard Deviation: 3.02 
+Maximum Deviation: 18 
+Variance: 9.13
+
+
+===Character e===
+
+Exact count: 7
+Mean Absolute Error: 2.3988 
+Mean Relative Error: 34.27 %
+
+Max Counter Value: 26
+Min Counter Value: 2
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.1232 
+Standard Deviation: 3.04 
+Maximum Deviation: 18 
+Variance: 9.26
+
+
+===Character f===
+
+Exact count: 7
+Mean Absolute Error: 2.3573 
+Mean Relative Error: 33.68 %
+
+Max Counter Value: 26
+Min Counter Value: 2
+Mean Counter Value: 8
+
+Mean Absolute Deviation: 2.1071 
+Standard Deviation: 2.98 
+Maximum Deviation: 18 
+Variance: 8.91
+
+
+===Character z===
+
+Exact count: 6
+Mean Absolute Error: 2.1046 
+Mean Relative Error: 35.08 %
+
+Max Counter Value: 18
+Min Counter Value: 2
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.15 
+Standard Deviation: 2.56 
+Maximum Deviation: 11 
+Variance: 6.56
+
+
+===Character o===
+
+Exact count: 6
+Mean Absolute Error: 2.1084 
+Mean Relative Error: 35.14 %
+
+Max Counter Value: 18
+Min Counter Value: 2
+Mean Counter Value: 7
+
+Mean Absolute Deviation: 2.1646 
+Standard Deviation: 2.57 
+Maximum Deviation: 11 
+Variance: 6.62
+
+
+===Character s===
+
+Exact count: 4
+Mean Absolute Error: 1.3971 
+Mean Relative Error: 34.93 %
+
+Max Counter Value: 8
+Min Counter Value: 2
+Mean Counter Value: 5
+
+Mean Absolute Deviation: 1.1297 
+Standard Deviation: 1.6 
+Maximum Deviation: 3 
+Variance: 2.56
+
+
+===Character l===
+
+Exact count: 3
+Mean Absolute Error: 0.8066 
+Mean Relative Error: 26.89 %
+
+Max Counter Value: 5
+Min Counter Value: 2
+Mean Counter Value: 4
+
+Mean Absolute Deviation: 1.0914 
+Standard Deviation: 1.06 
+Maximum Deviation: 2 
+Variance: 1.13
+
+
+EXECUTION TIME: 635 secs.
+
+
+_______________________________________SEQUENCE SIZE 1000________________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |      122      |  82   |  122  |  168  | 0.0  %|  26   |  123  |  617  | 0.82 %|
+|       r       |      110      |  70   |  110  |  150  | 0.0  %|  18   |  111  |  617  | 0.91 %|
+|       e       |      107      |  62   |  107  |  146  | 0.0  %|  26   |  107  |  617  | 0.0  %|
+|       a       |      105      |  66   |  105  |  148  | 0.0  %|  18   |  106  |  617  | 0.95 %|
+|       f       |      104      |  56   |  104  |  142  | 0.0  %|  18   |  105  |  436  | 0.96 %|
+|       n       |      104      |  66   |  104  |  140  | 0.0  %|  26   |  106  |  617  | 1.92 %|
+|       u       |      100      |  56   |  100  |  138  | 0.0  %|  26   |  101  |  436  | 1.0  %|
+|       s       |      55       |  24   |  55   |  82   | 0.0  %|  12   |  56   |  217  | 1.82 %|
+|       p       |      53       |  28   |  53   |  80   | 0.0  %|  12   |  54   |  217  | 1.89 %|
+|       z       |      50       |  22   |  50   |  80   | 0.0  %|  12   |  51   |  217  | 2.0  %|
+|       l       |      47       |  24   |  47   |  72   | 0.0  %|  12   |  48   |  217  | 2.13 %|
+|       o       |      43       |  16   |  43   |  68   | 0.0  %|   8   |  44   |  217  | 2.33 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          e           |          e           |         True         |          e           |         True         |
+|          a           |          a           |         True         |          n           |        False         |
+|          f           |          n           |        False         |          a           |        False         |
+|          n           |          f           |        False         |          f           |        False         |
+|          u           |          u           |         True         |          u           |         True         |
+|          s           |          s           |         True         |          s           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+|          o           |          o           |         True         |          o           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 122
+Mean Absolute Error: 8.8058 
+Mean Relative Error: 7.22 %
+
+Max Counter Value: 168
+Min Counter Value: 82
+Mean Counter Value: 122
+
+Mean Absolute Deviation: 8.8058 
+Standard Deviation: 11.07 
+Maximum Deviation: 46 
+Variance: 122.54
+
+
+===Character r===
+
+Exact count: 110
+Mean Absolute Error: 8.3212 
+Mean Relative Error: 7.56 %
+
+Max Counter Value: 150
+Min Counter Value: 70
+Mean Counter Value: 110
+
+Mean Absolute Deviation: 8.3212 
+Standard Deviation: 10.43 
+Maximum Deviation: 40 
+Variance: 108.88
+
+
+===Character e===
+
+Exact count: 107
+Mean Absolute Error: 8.3774 
+Mean Relative Error: 7.83 %
+
+Max Counter Value: 146
+Min Counter Value: 62
+Mean Counter Value: 107
+
+Mean Absolute Deviation: 8.3774 
+Standard Deviation: 10.43 
+Maximum Deviation: 45 
+Variance: 108.88
+
+
+===Character a===
+
+Exact count: 105
+Mean Absolute Error: 8.2636 
+Mean Relative Error: 7.87 %
+
+Max Counter Value: 148
+Min Counter Value: 66
+Mean Counter Value: 105
+
+Mean Absolute Deviation: 8.2636 
+Standard Deviation: 10.31 
+Maximum Deviation: 43 
+Variance: 106.24
+
+
+===Character f===
+
+Exact count: 104
+Mean Absolute Error: 8.1504 
+Mean Relative Error: 7.84 %
+
+Max Counter Value: 142
+Min Counter Value: 56
+Mean Counter Value: 104
+
+Mean Absolute Deviation: 8.1504 
+Standard Deviation: 10.24 
+Maximum Deviation: 48 
+Variance: 104.8
+
+
+===Character n===
+
+Exact count: 104
+Mean Absolute Error: 8.0726 
+Mean Relative Error: 7.76 %
+
+Max Counter Value: 140
+Min Counter Value: 66
+Mean Counter Value: 104
+
+Mean Absolute Deviation: 8.0726 
+Standard Deviation: 10.17 
+Maximum Deviation: 38 
+Variance: 103.47
+
+
+===Character u===
+
+Exact count: 100
+Mean Absolute Error: 7.909 
+Mean Relative Error: 7.91 %
+
+Max Counter Value: 138
+Min Counter Value: 56
+Mean Counter Value: 100
+
+Mean Absolute Deviation: 7.909 
+Standard Deviation: 9.93 
+Maximum Deviation: 44 
+Variance: 98.54
+
+
+===Character s===
+
+Exact count: 55
+Mean Absolute Error: 5.963 
+Mean Relative Error: 10.84 %
+
+Max Counter Value: 82
+Min Counter Value: 24
+Mean Counter Value: 55
+
+Mean Absolute Deviation: 5.963 
+Standard Deviation: 7.44 
+Maximum Deviation: 31 
+Variance: 55.28
+
+
+===Character p===
+
+Exact count: 53
+Mean Absolute Error: 5.8478 
+Mean Relative Error: 11.03 %
+
+Max Counter Value: 80
+Min Counter Value: 28
+Mean Counter Value: 53
+
+Mean Absolute Deviation: 5.8478 
+Standard Deviation: 7.28 
+Maximum Deviation: 27 
+Variance: 52.93
+
+
+===Character z===
+
+Exact count: 50
+Mean Absolute Error: 5.674 
+Mean Relative Error: 11.35 %
+
+Max Counter Value: 80
+Min Counter Value: 22
+Mean Counter Value: 50
+
+Mean Absolute Deviation: 5.674 
+Standard Deviation: 7.12 
+Maximum Deviation: 30 
+Variance: 50.76
+
+
+===Character l===
+
+Exact count: 47
+Mean Absolute Error: 5.4678 
+Mean Relative Error: 11.63 %
+
+Max Counter Value: 72
+Min Counter Value: 24
+Mean Counter Value: 47
+
+Mean Absolute Deviation: 5.4678 
+Standard Deviation: 6.81 
+Maximum Deviation: 25 
+Variance: 46.41
+
+
+===Character o===
+
+Exact count: 43
+Mean Absolute Error: 5.2762 
+Mean Relative Error: 12.27 %
+
+Max Counter Value: 68
+Min Counter Value: 16
+Mean Counter Value: 43
+
+Mean Absolute Deviation: 5.2762 
+Standard Deviation: 6.6 
+Maximum Deviation: 27 
+Variance: 43.61
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 122
+Mean Absolute Error: 42.1862 
+Mean Relative Error: 34.58 %
+
+Max Counter Value: 617
+Min Counter Value: 26
+Mean Counter Value: 123
+
+Mean Absolute Deviation: 42.4592 
+Standard Deviation: 55.75 
+Maximum Deviation: 494 
+Variance: 3108.42
+
+
+===Character r===
+
+Exact count: 110
+Mean Absolute Error: 36.1517 
+Mean Relative Error: 32.87 %
+
+Max Counter Value: 617
+Min Counter Value: 18
+Mean Counter Value: 111
+
+Mean Absolute Deviation: 36.5863 
+Standard Deviation: 50.72 
+Maximum Deviation: 506 
+Variance: 2572.97
+
+
+===Character e===
+
+Exact count: 107
+Mean Absolute Error: 34.2897 
+Mean Relative Error: 32.05 %
+
+Max Counter Value: 617
+Min Counter Value: 26
+Mean Counter Value: 107
+
+Mean Absolute Deviation: 34.2897 
+Standard Deviation: 48.48 
+Maximum Deviation: 510 
+Variance: 2350.04
+
+
+===Character a===
+
+Exact count: 105
+Mean Absolute Error: 34.3256 
+Mean Relative Error: 32.69 %
+
+Max Counter Value: 617
+Min Counter Value: 18
+Mean Counter Value: 106
+
+Mean Absolute Deviation: 34.202 
+Standard Deviation: 47.78 
+Maximum Deviation: 511 
+Variance: 2283.01
+
+
+===Character f===
+
+Exact count: 104
+Mean Absolute Error: 34.1187 
+Mean Relative Error: 32.81 %
+
+Max Counter Value: 436
+Min Counter Value: 18
+Mean Counter Value: 105
+
+Mean Absolute Deviation: 34.0213 
+Standard Deviation: 47.28 
+Maximum Deviation: 331 
+Variance: 2235.87
+
+
+===Character n===
+
+Exact count: 104
+Mean Absolute Error: 34.6764 
+Mean Relative Error: 33.34 %
+
+Max Counter Value: 617
+Min Counter Value: 26
+Mean Counter Value: 106
+
+Mean Absolute Deviation: 34.456 
+Standard Deviation: 48.53 
+Maximum Deviation: 511 
+Variance: 2355.03
+
+
+===Character u===
+
+Exact count: 100
+Mean Absolute Error: 33.7801 
+Mean Relative Error: 33.78 %
+
+Max Counter Value: 436
+Min Counter Value: 26
+Mean Counter Value: 101
+
+Mean Absolute Deviation: 33.7561 
+Standard Deviation: 45.3 
+Maximum Deviation: 335 
+Variance: 2051.88
+
+
+===Character s===
+
+Exact count: 55
+Mean Absolute Error: 17.8985 
+Mean Relative Error: 32.54 %
+
+Max Counter Value: 217
+Min Counter Value: 12
+Mean Counter Value: 56
+
+Mean Absolute Deviation: 18.3101 
+Standard Deviation: 24.58 
+Maximum Deviation: 161 
+Variance: 603.93
+
+
+===Character p===
+
+Exact count: 53
+Mean Absolute Error: 16.7132 
+Mean Relative Error: 31.53 %
+
+Max Counter Value: 217
+Min Counter Value: 12
+Mean Counter Value: 54
+
+Mean Absolute Deviation: 17.1856 
+Standard Deviation: 24.02 
+Maximum Deviation: 163 
+Variance: 576.79
+
+
+===Character z===
+
+Exact count: 50
+Mean Absolute Error: 16.3275 
+Mean Relative Error: 32.66 %
+
+Max Counter Value: 217
+Min Counter Value: 12
+Mean Counter Value: 51
+
+Mean Absolute Deviation: 16.2481 
+Standard Deviation: 22.02 
+Maximum Deviation: 166 
+Variance: 484.94
+
+
+===Character l===
+
+Exact count: 47
+Mean Absolute Error: 16.033 
+Mean Relative Error: 34.11 %
+
+Max Counter Value: 217
+Min Counter Value: 12
+Mean Counter Value: 48
+
+Mean Absolute Deviation: 16.0842 
+Standard Deviation: 21.01 
+Maximum Deviation: 169 
+Variance: 441.56
+
+
+===Character o===
+
+Exact count: 43
+Mean Absolute Error: 14.8326 
+Mean Relative Error: 34.49 %
+
+Max Counter Value: 217
+Min Counter Value: 8
+Mean Counter Value: 44
+
+Mean Absolute Deviation: 15.043 
+Standard Deviation: 19.41 
+Maximum Deviation: 173 
+Variance: 376.84
+
+
+EXECUTION TIME: 1288 secs.
+
+
+_______________________________________SEQUENCE SIZE 10000_______________________________________
+
+
+---COUNTER ANALYSIS---
+
+|    Counter    |     Exact     |      Fixed Probability        |    Decreasing Probability     |
+|               |               |  Min  |  Avg  |  Max  | Error |  Min  |  Avg  |  Max  | Error |
+|-----------------------------------------------------------------------------------------------|
+|       i       |     1584      | 1442  | 1584  | 1724  | 0.0  %|  436  | 1570  | 6991  | 0.88 %|
+|       f       |     1025      |  894  | 1025  | 1152  | 0.0  %|  217  | 1029  | 4943  | 0.39 %|
+|       u       |     1015      |  894  | 1015  | 1132  | 0.0  %|  217  | 1009  | 4943  | 0.59 %|
+|       n       |     1014      |  898  | 1013  | 1130  | 0.1  %|  217  | 1022  | 4943  | 0.79 %|
+|       a       |      992      |  858  |  992  | 1112  | 0.0  %|  217  |  991  | 4943  | 0.1  %|
+|       e       |      983      |  864  |  982  | 1108  | 0.1  %|  217  |  983  | 4943  | 0.0  %|
+|       r       |      976      |  862  |  976  | 1096  | 0.0  %|  217  |  981  | 4943  | 0.51 %|
+|       l       |      517      |  416  |  517  |  600  | 0.0  %|  108  |  514  | 2471  | 0.58 %|
+|       z       |      497      |  410  |  497  |  582  | 0.0  %|  108  |  498  | 2471  | 0.2  %|
+|       p       |      479      |  400  |  479  |  556  | 0.0  %|  108  |  482  | 2471  | 0.63 %|
+|       o       |      463      |  378  |  463  |  538  | 0.0  %|  108  |  466  | 2471  | 0.65 %|
+|       s       |      455      |  382  |  455  |  536  | 0.0  %|  108  |  454  | 3495  | 0.22 %|
+
+
+---COUNTER ORDERING COMPARISON---
+
+|        Exact         |  Fixed Probability   |     Match Exact      |Decreasing Probability|     Match Exact      |
+|------------------------------------------------------------------------------------------------------------------|
+|          i           |          i           |         True         |          i           |         True         |
+|          f           |          f           |         True         |          f           |         True         |
+|          u           |          u           |         True         |          n           |        False         |
+|          n           |          n           |         True         |          u           |        False         |
+|          a           |          a           |         True         |          a           |         True         |
+|          e           |          e           |         True         |          e           |         True         |
+|          r           |          r           |         True         |          r           |         True         |
+|          l           |          l           |         True         |          l           |         True         |
+|          z           |          z           |         True         |          z           |         True         |
+|          p           |          p           |         True         |          p           |         True         |
+|          o           |          o           |         True         |          o           |         True         |
+|          s           |          s           |         True         |          s           |         True         |
+
+---STATISTICS---
+
+FIXED PROBABILITY
+===Character i===
+
+Exact count: 1584
+Mean Absolute Error: 31.4794 
+Mean Relative Error: 1.99 %
+
+Max Counter Value: 1724
+Min Counter Value: 1442
+Mean Counter Value: 1584
+
+Mean Absolute Deviation: 31.4794 
+Standard Deviation: 39.76 
+Maximum Deviation: 142 
+Variance: 1580.5
+
+
+===Character f===
+
+Exact count: 1025
+Mean Absolute Error: 25.7822 
+Mean Relative Error: 2.52 %
+
+Max Counter Value: 1152
+Min Counter Value: 894
+Mean Counter Value: 1025
+
+Mean Absolute Deviation: 25.7822 
+Standard Deviation: 32.52 
+Maximum Deviation: 131 
+Variance: 1057.48
+
+
+===Character u===
+
+Exact count: 1015
+Mean Absolute Error: 25.4702 
+Mean Relative Error: 2.51 %
+
+Max Counter Value: 1132
+Min Counter Value: 894
+Mean Counter Value: 1015
+
+Mean Absolute Deviation: 25.4702 
+Standard Deviation: 31.91 
+Maximum Deviation: 121 
+Variance: 1018.52
+
+
+===Character n===
+
+Exact count: 1014
+Mean Absolute Error: 25.4038 
+Mean Relative Error: 2.51 %
+
+Max Counter Value: 1130
+Min Counter Value: 898
+Mean Counter Value: 1013
+
+Mean Absolute Deviation: 25.4092 
+Standard Deviation: 31.79 
+Maximum Deviation: 117 
+Variance: 1010.47
+
+
+===Character a===
+
+Exact count: 992
+Mean Absolute Error: 25.0344 
+Mean Relative Error: 2.52 %
+
+Max Counter Value: 1112
+Min Counter Value: 858
+Mean Counter Value: 992
+
+Mean Absolute Deviation: 25.0344 
+Standard Deviation: 31.44 
+Maximum Deviation: 134 
+Variance: 988.75
+
+
+===Character e===
+
+Exact count: 983
+Mean Absolute Error: 25.0542 
+Mean Relative Error: 2.55 %
+
+Max Counter Value: 1108
+Min Counter Value: 864
+Mean Counter Value: 982
+
+Mean Absolute Deviation: 25.0458 
+Standard Deviation: 31.43 
+Maximum Deviation: 126 
+Variance: 988.07
+
+
+===Character r===
+
+Exact count: 976
+Mean Absolute Error: 24.8126 
+Mean Relative Error: 2.54 %
+
+Max Counter Value: 1096
+Min Counter Value: 862
+Mean Counter Value: 976
+
+Mean Absolute Deviation: 24.8126 
+Standard Deviation: 31.25 
+Maximum Deviation: 120 
+Variance: 976.39
+
+
+===Character l===
+
+Exact count: 517
+Mean Absolute Error: 18.2314 
+Mean Relative Error: 3.53 %
+
+Max Counter Value: 600
+Min Counter Value: 416
+Mean Counter Value: 517
+
+Mean Absolute Deviation: 18.2314 
+Standard Deviation: 22.74 
+Maximum Deviation: 101 
+Variance: 517.28
+
+
+===Character z===
+
+Exact count: 497
+Mean Absolute Error: 17.7422 
+Mean Relative Error: 3.57 %
+
+Max Counter Value: 582
+Min Counter Value: 410
+Mean Counter Value: 497
+
+Mean Absolute Deviation: 17.7422 
+Standard Deviation: 22.3 
+Maximum Deviation: 87 
+Variance: 497.3
+
+
+===Character p===
+
+Exact count: 479
+Mean Absolute Error: 17.5808 
+Mean Relative Error: 3.67 %
+
+Max Counter Value: 556
+Min Counter Value: 400
+Mean Counter Value: 479
+
+Mean Absolute Deviation: 17.5808 
+Standard Deviation: 21.92 
+Maximum Deviation: 79 
+Variance: 480.51
+
+
+===Character o===
+
+Exact count: 463
+Mean Absolute Error: 17.22 
+Mean Relative Error: 3.72 %
+
+Max Counter Value: 538
+Min Counter Value: 378
+Mean Counter Value: 463
+
+Mean Absolute Deviation: 17.22 
+Standard Deviation: 21.57 
+Maximum Deviation: 85 
+Variance: 465.32
+
+
+===Character s===
+
+Exact count: 455
+Mean Absolute Error: 17.1298 
+Mean Relative Error: 3.76 %
+
+Max Counter Value: 536
+Min Counter Value: 382
+Mean Counter Value: 455
+
+Mean Absolute Deviation: 17.1298 
+Standard Deviation: 21.42 
+Maximum Deviation: 81 
+Variance: 458.86
+
+
+
+DECREASING PROBABILITY
+===Character i===
+
+Exact count: 1584
+Mean Absolute Error: 540.3272 
+Mean Relative Error: 34.11 %
+
+Max Counter Value: 6991
+Min Counter Value: 436
+Mean Counter Value: 1570
+
+Mean Absolute Deviation: 539.3836 
+Standard Deviation: 711.93 
+Maximum Deviation: 5421 
+Variance: 506846.76
+
+
+===Character f===
+
+Exact count: 1025
+Mean Absolute Error: 360.505 
+Mean Relative Error: 35.17 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 1029
+
+Mean Absolute Deviation: 361.357 
+Standard Deviation: 470.58 
+Maximum Deviation: 3914 
+Variance: 221449.71
+
+
+===Character u===
+
+Exact count: 1015
+Mean Absolute Error: 352.0098 
+Mean Relative Error: 34.68 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 1009
+
+Mean Absolute Deviation: 350.4906 
+Standard Deviation: 456.83 
+Maximum Deviation: 3934 
+Variance: 208697.05
+
+
+===Character n===
+
+Exact count: 1014
+Mean Absolute Error: 357.2837 
+Mean Relative Error: 35.24 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 1022
+
+Mean Absolute Deviation: 359.0565 
+Standard Deviation: 469.97 
+Maximum Deviation: 3921 
+Variance: 220875.17
+
+
+===Character a===
+
+Exact count: 992
+Mean Absolute Error: 340.8421 
+Mean Relative Error: 34.36 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 991
+
+Mean Absolute Deviation: 340.5711 
+Standard Deviation: 443.8 
+Maximum Deviation: 3952 
+Variance: 196959.78
+
+
+===Character e===
+
+Exact count: 983
+Mean Absolute Error: 341.0101 
+Mean Relative Error: 34.69 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 983
+
+Mean Absolute Deviation: 341.0101 
+Standard Deviation: 448.61 
+Maximum Deviation: 3960 
+Variance: 201252.96
+
+
+===Character r===
+
+Exact count: 976
+Mean Absolute Error: 340.5031 
+Mean Relative Error: 34.89 %
+
+Max Counter Value: 4943
+Min Counter Value: 217
+Mean Counter Value: 981
+
+Mean Absolute Deviation: 341.9821 
+Standard Deviation: 453.21 
+Maximum Deviation: 3962 
+Variance: 205397.44
+
+
+===Character l===
+
+Exact count: 517
+Mean Absolute Error: 177.1469 
+Mean Relative Error: 34.26 %
+
+Max Counter Value: 2471
+Min Counter Value: 108
+Mean Counter Value: 514
+
+Mean Absolute Deviation: 176.5625 
+Standard Deviation: 228.35 
+Maximum Deviation: 1957 
+Variance: 52142.07
+
+
+===Character z===
+
+Exact count: 497
+Mean Absolute Error: 171.6056 
+Mean Relative Error: 34.53 %
+
+Max Counter Value: 2471
+Min Counter Value: 108
+Mean Counter Value: 498
+
+Mean Absolute Deviation: 171.8768 
+Standard Deviation: 224.98 
+Maximum Deviation: 1973 
+Variance: 50614.61
+
+
+===Character p===
+
+Exact count: 479
+Mean Absolute Error: 164.3919 
+Mean Relative Error: 34.32 %
+
+Max Counter Value: 2471
+Min Counter Value: 108
+Mean Counter Value: 482
+
+Mean Absolute Deviation: 165.3933 
+Standard Deviation: 218.77 
+Maximum Deviation: 1989 
+Variance: 47861.13
+
+
+===Character o===
+
+Exact count: 463
+Mean Absolute Error: 156.1868 
+Mean Relative Error: 33.73 %
+
+Max Counter Value: 2471
+Min Counter Value: 108
+Mean Counter Value: 466
+
+Mean Absolute Deviation: 157.3424 
+Standard Deviation: 210.7 
+Maximum Deviation: 2005 
+Variance: 44393.75
+
+
+===Character s===
+
+Exact count: 455
+Mean Absolute Error: 150.7295 
+Mean Relative Error: 33.13 %
+
+Max Counter Value: 3495
+Min Counter Value: 108
+Mean Counter Value: 454
+
+Mean Absolute Deviation: 150.3007 
+Standard Deviation: 206.95 
+Maximum Deviation: 3041 
+Variance: 42827.01
+
+
+[TIMEOUT]

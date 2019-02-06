@@ -1,0 +1,29 @@
+Stream Size: 1000
+Original Chain: abcdefghijklmnopqrstuvwxyz
+
+Item: a	Probability: 0.019
+Item: b	Probability: 0.02
+Item: c	Probability: 0.015
+Item: d	Probability: 0.016
+Item: e	Probability: 0.018
+Item: f	Probability: 0.025
+Item: g	Probability: 0.008
+Item: h	Probability: 0.012
+Item: i	Probability: 0.09
+Item: j	Probability: 0.021
+Item: k	Probability: 0.018
+Item: l	Probability: 0.016
+Item: m	Probability: 0.017
+Item: n	Probability: 0.021
+Item: o	Probability: 0.029
+Item: p	Probability: 0.009
+Item: q	Probability: 0.017
+Item: r	Probability: 0.327
+Item: s	Probability: 0.015
+Item: t	Probability: 0.011
+Item: u	Probability: 0.191
+Item: v	Probability: 0.018
+Item: w	Probability: 0.022
+Item: x	Probability: 0.016
+Item: y	Probability: 0.015
+Item: z	Probability: 0.014
